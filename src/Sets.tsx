@@ -1,0 +1,107 @@
+// The reusable locations of Sabi Compound. Each set sits at its own spot along
+// the x axis so the camera can physically travel from one to the next.
+export type V3 = [number, number, number];
+export const INK = "#1b1410";
+
+export const BED_X = 0;
+export const DOOR_X = 9;
+export const PARLOUR_X = 18;
+export const CHURCH_X = 27;
+
+// A box with a comic-book ink outline (a slightly larger black shell seen from inside).
+export const Box = ({ size, position, color, glow = 0 }: { size: V3; position: V3; color: string; glow?: number }) => (
+  <group position={position}>
+    <mesh castShadow receiveShadow>
+      <boxGeometry args={size} />
+      <meshStandardMaterial color={color} emissive={color} emissiveIntensity={glow} roughness={0.9} />
+    </mesh>
+    <mesh>
+      <boxGeometry args={[size[0] + 0.07, size[1] + 0.07, size[2] + 0.07]} />
+      <meshBasicMaterial color={INK} side={1 /* BackSide */} />
+    </mesh>
+  </group>
+);
+
+const Bedroom = () => (
+  <group position={[BED_X, 0, 0]}>
+    <Box size={[5, 0.1, 4.4]} position={[0, 0.05, -0.3]} color="#b9794a" />
+    <Box size={[5, 7, 0.2]} position={[0, 3.5, -2.5]} color="#f6dfb4" />
+    <Box size={[0.2, 7, 4.4]} position={[-2.5, 3.5, -0.3]} color="#efd2a0" />
+    <Box size={[1.3, 1.3, 0.08]} position={[1.2, 2.7, -2.38]} color="#9fd4ff" glow={0.6} />
+    <Box size={[1.5, 0.12, 0.2]} position={[1.2, 1.98, -2.3]} color="#7a4a2b" />
+    <Box size={[1.1, 0.8, 0.05]} position={[-1.2, 3.0, -2.38]} color="#2f4a8f" />
+    {/* bed: a character placed inside it shows only their top half, so they read as sitting up */}
+    <Box size={[2.3, 0.55, 1.5]} position={[-0.5, 0.38, -0.7]} color="#fff7ea" />
+    <Box size={[2.34, 0.2, 0.75]} position={[-0.5, 0.62, -0.3]} color="#e0457b" />
+    <Box size={[0.2, 1.2, 1.6]} position={[-1.75, 0.6, -0.7]} color="#7a4a2b" />
+    <Box size={[0.55, 0.18, 0.8]} position={[-1.35, 0.72, -0.9]} color="#ffffff" />
+    <Box size={[0.5, 0.04, 0.32]} position={[-0.3, 0.76, -0.2]} color="#c9ced6" />
+    <Box size={[0.5, 0.3, 0.04]} position={[-0.3, 0.9, -0.04]} color="#3b4252" />
+    <Box size={[0.9, 0.02, 1.4]} position={[1.3, 0.11, 0.4]} color="#2f8f6b" />
+  </group>
+);
+
+const Door = () => (
+  <group position={[DOOR_X, 0, 0]}>
+    <Box size={[5.4, 4.4, 0.3]} position={[0, 2.2, -1.4]} color="#f2c7a0" />
+    <Box size={[6, 0.25, 1.2]} position={[0, 4.5, -1.1]} color="#8f3b2e" />
+    <Box size={[1.15, 2.3, 0.12]} position={[0.5, 1.15, -1.2]} color="#2f6f8f" />
+    <Box size={[0.12, 0.12, 0.1]} position={[0.1, 1.15, -1.1]} color="#ffd23f" />
+    <Box size={[1.0, 0.9, 0.1]} position={[-1.6, 1.9, -1.22]} color="#9fd4ff" glow={0.3} />
+    <Box size={[1.6, 0.12, 0.8]} position={[0.5, 0.06, -0.7]} color="#c9a37a" />
+    <Box size={[0.5, 0.55, 0.5]} position={[1.9, 0.28, -0.5]} color="#2f8f6b" />
+  </group>
+);
+
+const Parlour = ({ food }: { food: boolean }) => (
+  <group position={[PARLOUR_X, 0, 0]}>
+    <Box size={[6.4, 0.1, 4.6]} position={[0, 0.05, -0.3]} color="#d9c7a6" />
+    <Box size={[6.4, 7, 0.2]} position={[0, 3.5, -2.6]} color="#bfe3d0" />
+    {/* sofa */}
+    <Box size={[2.2, 0.5, 0.9]} position={[-1.6, 0.36, -1.7]} color="#8f3b2e" />
+    <Box size={[2.2, 1.0, 0.25]} position={[-1.6, 0.85, -2.2]} color="#7a2f25" />
+    {/* TV and family photo */}
+    <Box size={[1.5, 0.9, 0.08]} position={[1.1, 2.9, -2.48]} color="#20242c" />
+    <Box size={[0.7, 0.9, 0.06]} position={[-1.5, 3.1, -2.48]} color="#ffd23f" />
+    <Box size={[0.5, 0.7, 0.07]} position={[-1.5, 3.1, -2.46]} color="#f6dfb4" />
+    {/* centre table */}
+    <Box size={[1.5, 0.45, 0.8]} position={[0.3, 0.3, 1.0]} color="#7a4a2b" />
+    {food && (
+      <>
+        <Box size={[0.7, 0.05, 0.5]} position={[0.3, 0.56, 1.0]} color="#ffffff" />
+        <Box size={[0.42, 0.16, 0.34]} position={[0.2, 0.67, 1.0]} color="#e8862e" />
+        <Box size={[0.14, 0.12, 0.14]} position={[0.52, 0.65, 0.92]} color="#6b3a22" />
+        <Box size={[0.14, 0.12, 0.14]} position={[0.52, 0.65, 1.12]} color="#6b3a22" />
+      </>
+    )}
+  </group>
+);
+
+const Church = () => (
+  <group position={[CHURCH_X, 0, 0]}>
+    <Box size={[7, 0.1, 7]} position={[0, 0.05, 0]} color="#c9a37a" />
+    <Box size={[7, 8, 0.2]} position={[0, 4, -3.1]} color="#fbf0d8" />
+    <Box size={[1.2, 2.6, 0.08]} position={[0.6, 3.6, -2.98]} color="#ffe08a" glow={0.7} />
+    {/* cross */}
+    <Box size={[0.18, 1.5, 0.1]} position={[-1.5, 3.5, -2.96]} color="#7a4a2b" />
+    <Box size={[0.9, 0.18, 0.1]} position={[-1.5, 3.8, -2.95]} color="#7a4a2b" />
+    {/* pulpit: a character placed just behind it is hidden from the waist down */}
+    <Box size={[1.0, 1.15, 0.5]} position={[0.6, 0.6, -1.5]} color="#8f3b2e" />
+    {/* pews */}
+    <Box size={[4.6, 0.95, 0.35]} position={[0, 0.5, 0.7]} color="#7a4a2b" />
+    <Box size={[4.6, 0.95, 0.35]} position={[0, 0.5, 2.0]} color="#7a4a2b" />
+  </group>
+);
+
+export const Sets = ({ flags }: { flags: string[] }) => (
+  <>
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[14, 0, 0]} receiveShadow>
+      <planeGeometry args={[120, 40]} />
+      <meshStandardMaterial color="#e2b877" roughness={1} />
+    </mesh>
+    <Bedroom />
+    <Door />
+    <Parlour food={flags.includes("food")} />
+    <Church />
+  </>
+);

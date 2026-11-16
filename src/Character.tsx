@@ -3,14 +3,15 @@
 import type { ReactNode } from "react";
 
 export type Expression = "neutral" | "happy" | "shocked" | "vexed" | "talking";
-export type Who = "dev" | "mama";
+export type Who = "dev" | "mama" | "chinedu";
 
 const INK = "#1b1410";
 const ink = { stroke: INK, strokeWidth: 3.5, strokeLinejoin: "round", strokeLinecap: "round" } as const;
 
 const LOOKS = {
   dev: { skin: "#c98f63", shade: "#a8744d", top: "#ffffff", bottom: "#2f4a8f" },
-  mama: { skin: "#b97f55", shade: "#99653f", top: "#d6336c", bottom: "#d6336c" },
+  mama: { skin: "#b97f55", shade: "#99653f", top: "#d6336c", bottom: "#f5c542" },
+  chinedu: { skin: "#a86b45", shade: "#885232", top: "#1f9d6b", bottom: "#7fd0ff" },
 };
 
 // brows, eye height and mouth per expression
@@ -86,9 +87,9 @@ export const Character = ({
           {/* ankara gown with wrapper */}
           <path d="M58 170 Q100 152 142 170 L156 366 Q100 380 44 366 Z" fill={look.top} {...ink} />
           <path d="M58 170 L42 204 L62 214 Z M142 170 L158 204 L138 214 Z" fill={look.top} {...ink} />
-          <path d="M50 270 Q100 284 150 270 M47 310 Q100 326 153 310" fill="none" stroke="#f5c542" strokeWidth={7} />
+          <path d="M50 270 Q100 284 150 270 M47 310 Q100 326 153 310" fill="none" stroke={look.bottom} strokeWidth={7} />
           {[80, 100, 120].map((x) => (
-            <circle key={x} cx={x} cy={210} r={7} fill="#f5c542" />
+            <circle key={x} cx={x} cy={210} r={7} fill={look.bottom} />
           ))}
         </>
       )}
@@ -110,8 +111,8 @@ export const Character = ({
       ) : (
         // gele head tie + earrings
         <>
-          <path d="M44 56 Q30 -4 100 -6 Q172 -4 156 56 Q130 30 100 34 Q70 30 44 56 Z" fill="#f5c542" {...ink} />
-          <path d="M60 30 Q100 6 142 28 M70 14 Q104 -2 150 22" fill="none" stroke="#c98a00" strokeWidth={4} />
+          <path d="M44 56 Q30 -4 100 -6 Q172 -4 156 56 Q130 30 100 34 Q70 30 44 56 Z" fill={look.bottom} {...ink} />
+          <path d="M60 30 Q100 6 142 28 M70 14 Q104 -2 150 22" fill="none" stroke={INK} strokeWidth={3} opacity={0.35} />
           <circle cx="50" cy="100" r="6" fill="#f5c542" {...ink} />
           <circle cx="150" cy="100" r="6" fill="#f5c542" {...ink} />
         </>

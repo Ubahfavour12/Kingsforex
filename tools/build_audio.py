@@ -8,6 +8,7 @@ import json, subprocess, sys
 from pathlib import Path
 
 GAP_MS = 250     # pause between beats
+WORDS_PER_SECOND = 2.6  # pace assumed for beats that are not voiced yet
 TEMPO = 1.12     # the cloned voice reads slowly; tighten it for comedy pacing
 
 ep = sys.argv[1]
@@ -27,12 +28,17 @@ def duration_ms(path):
 
 trim = "silenceremove=start_periods=1:start_threshold=-50dB"
 clean = f"{trim},areverse,{trim},areverse,atempo={TEMPO},loudnorm=I=-16:TP=-1.5,apad=pad_dur={GAP_MS / 1000}"
-t, out_beats, captions, parts = 0.0, [], [], []
+t, out_beats, captions, parts, missing = 0.0, [], [], [], []
 for i, text in enumerate(beats, 1):
     clip = src / f"b{i}.mp3"
-    assert clip.exists(), f"missing {clip}"
     wav = tmp / f"b{i}.wav"
-    run("ffmpeg", "-y", "-i", str(clip), "-af", clean, "-ar", "44100", "-ac", "1", str(wav))
+    if clip.exists():
+        run("ffmpeg", "-y", "-i", str(clip), "-af", clean, "-ar", "44100", "-ac", "1", str(wav))
+    else:
+        # no voice clip yet: hold the beat open with silence at reading pace
+        missing.append(i)
+        secs = len(text.split()) / WORDS_PER_SECOND + GAP_MS / 1000
+        run("ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", f"{secs:.2f}", str(wav))
     spoken = duration_ms(wav) - GAP_MS
     out_beats.append({"startMs": round(t), "endMs": round(t + spoken)})
     # shortcut: words are timed in proportion to their length, not aligned to
@@ -53,4 +59,4 @@ listing.write_text("".join(f"file '{p.resolve()}'\n" for p in parts))
 run("ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(listing), "-b:a", "192k", f"public/{ep}.mp3")
 Path(f"src/{ep}.json").write_text(json.dumps({"beats": out_beats, "captions": captions}, indent=1))
 assert len(out_beats) == len(beats) and captions[-1]["endMs"] <= t
-print(f"{ep}: {len(beats)} beats, {t / 1000:.1f}s")
+print(f"{ep}: {len(beats)} beats, {t / 1000:.1f}s, not voiced yet: {missing or 'none'}")
