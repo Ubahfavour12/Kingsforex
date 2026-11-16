@@ -113,7 +113,7 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
   return (
     <>
       <CameraRig segs={segs} index={index} />
-      <ambientLight intensity={1.5 - night * 0.35} color={night > 0.5 ? "#9db4ff" : "#ffe9d2"} />
+      <ambientLight intensity={1.5 + night * 0.2} color={night > 0.5 ? "#c4d2ff" : "#ffe9d2"} />
       <directionalLight
         position={[5, 9, 7]}
         intensity={2.2 - night * 1.5}
@@ -154,7 +154,7 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
         );
       })}
 
-      {(seg.gags ?? []).map((g) => {
+      {(seg.gags ?? []).map((g, gi) => {
         const [p0, p1] = g.p ?? [0, 1];
         const start = length * p0;
         if (local < start || local >= length * p1) return null;
@@ -169,7 +169,7 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
           return [0, 1, 2, 3].map((k) => {
             const life = (frame + k * 11) % 44;
             return (
-              <mesh key={k} position={[x - 0.65 + k * 0.42, g.at[1] + life * 0.04, g.at[2]]} scale={Math.min(1, life / 6)}>
+              <mesh key={`${index}-${gi}-${k}`} position={[x - 0.65 + k * 0.42, g.at[1] + life * 0.04, g.at[2]]} scale={Math.min(1, life / 6)}>
                 <planeGeometry args={[w, w * 0.35]} />
                 <meshBasicMaterial map={map} transparent opacity={1 - life / 44} />
               </mesh>
@@ -178,7 +178,7 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
         }
         const s = spring({ frame: local - start, fps: FPS, config: { damping: 9, stiffness: 180 } });
         return (
-          <mesh key={gagKey(g)} position={[x, g.at[1], g.at[2]]} scale={s} rotation={[0, 0, Math.sin(frame / 7) * 0.04]}>
+          <mesh key={`${index}-${gi}`} position={[x, g.at[1], g.at[2]]} scale={s} rotation={[0, 0, Math.sin(frame / 7) * 0.04]}>
             <planeGeometry args={[w, w * 0.35]} />
             <meshBasicMaterial map={map} transparent />
           </mesh>
