@@ -1,23 +1,17 @@
 import { AbsoluteFill } from "remotion";
-import { Character, type Expression } from "./Character";
+import { Character, type Expression, type Who } from "./Character";
 
 const EXPRESSIONS: Expression[] = ["neutral", "happy", "talking", "shocked", "vexed"];
+const CAST: Who[] = ["dev", "mama"];
 
-// Review sheet: every expression of the lead character side by side.
+// Review sheet: every expression of every character.
 export const CharacterSheet = () => (
-  <AbsoluteFill
-    style={{
-      background: "#f3dfb8",
-      flexDirection: "row",
-      justifyContent: "space-evenly",
-      alignItems: "center",
-      fontFamily: "Arial, Helvetica, sans-serif",
-    }}
-  >
-    {EXPRESSIONS.map((expression) => (
-      <div key={expression} style={{ textAlign: "center" }}>
-        <Character expression={expression} height={760} />
-        <div style={{ fontSize: 40, fontWeight: 800, marginTop: 24, color: "#17110d" }}>{expression}</div>
+  <AbsoluteFill style={{ background: "#f3dfb8", justifyContent: "space-evenly" }}>
+    {CAST.map((who) => (
+      <div key={who} style={{ display: "flex", justifyContent: "space-evenly" }}>
+        {EXPRESSIONS.map((expression) => (
+          <Character key={expression} who={who} expression={expression} height={500} />
+        ))}
       </div>
     ))}
   </AbsoluteFill>

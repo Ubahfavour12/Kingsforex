@@ -1,0 +1,506 @@
+{
+ "beats": [
+  {
+   "startMs": 0,
+   "endMs": 6525
+  },
+  {
+   "startMs": 6775,
+   "endMs": 13808
+  },
+  {
+   "startMs": 14058,
+   "endMs": 19858
+  },
+  {
+   "startMs": 20108,
+   "endMs": 31762
+  },
+  {
+   "startMs": 32012,
+   "endMs": 36421
+  }
+ ],
+ "captions": [
+  {
+   "text": "I",
+   "startMs": 0,
+   "endMs": 167
+  },
+  {
+   "text": "dey",
+   "startMs": 167,
+   "endMs": 502
+  },
+  {
+   "text": "earn",
+   "startMs": 502,
+   "endMs": 920
+  },
+  {
+   "text": "dollar",
+   "startMs": 920,
+   "endMs": 1506
+  },
+  {
+   "text": "from",
+   "startMs": 1506,
+   "endMs": 1924
+  },
+  {
+   "text": "my",
+   "startMs": 1924,
+   "endMs": 2175
+  },
+  {
+   "text": "bedroom,",
+   "startMs": 2175,
+   "endMs": 2928
+  },
+  {
+   "text": "but",
+   "startMs": 2928,
+   "endMs": 3263
+  },
+  {
+   "text": "my",
+   "startMs": 3263,
+   "endMs": 3514
+  },
+  {
+   "text": "mama",
+   "startMs": 3514,
+   "endMs": 3932
+  },
+  {
+   "text": "dey",
+   "startMs": 3932,
+   "endMs": 4267
+  },
+  {
+   "text": "pray",
+   "startMs": 4267,
+   "endMs": 4685
+  },
+  {
+   "text": "make",
+   "startMs": 4685,
+   "endMs": 5103
+  },
+  {
+   "text": "God",
+   "startMs": 5103,
+   "endMs": 5438
+  },
+  {
+   "text": "give",
+   "startMs": 5438,
+   "endMs": 5856
+  },
+  {
+   "text": "me",
+   "startMs": 5856,
+   "endMs": 6107
+  },
+  {
+   "text": "job.",
+   "startMs": 6107,
+   "endMs": 6525,
+   "endBeat": true
+  },
+  {
+   "text": "Every",
+   "startMs": 6775,
+   "endMs": 7197
+  },
+  {
+   "text": "morning,",
+   "startMs": 7197,
+   "endMs": 7830
+  },
+  {
+   "text": "six",
+   "startMs": 7830,
+   "endMs": 8112
+  },
+  {
+   "text": "o'clock,",
+   "startMs": 8112,
+   "endMs": 8745
+  },
+  {
+   "text": "she",
+   "startMs": 8745,
+   "endMs": 9026
+  },
+  {
+   "text": "go",
+   "startMs": 9026,
+   "endMs": 9237
+  },
+  {
+   "text": "knock",
+   "startMs": 9237,
+   "endMs": 9659
+  },
+  {
+   "text": "my",
+   "startMs": 9659,
+   "endMs": 9870
+  },
+  {
+   "text": "door.",
+   "startMs": 9870,
+   "endMs": 10292
+  },
+  {
+   "text": "You",
+   "startMs": 10292,
+   "endMs": 10573
+  },
+  {
+   "text": "still",
+   "startMs": 10573,
+   "endMs": 10995
+  },
+  {
+   "text": "dey",
+   "startMs": 10995,
+   "endMs": 11276
+  },
+  {
+   "text": "sleep?",
+   "startMs": 11276,
+   "endMs": 11769
+  },
+  {
+   "text": "Your",
+   "startMs": 11769,
+   "endMs": 12120
+  },
+  {
+   "text": "mates",
+   "startMs": 12120,
+   "endMs": 12542
+  },
+  {
+   "text": "don",
+   "startMs": 12542,
+   "endMs": 12824
+  },
+  {
+   "text": "reach",
+   "startMs": 12824,
+   "endMs": 13246
+  },
+  {
+   "text": "office!",
+   "startMs": 13246,
+   "endMs": 13808,
+   "endBeat": true
+  },
+  {
+   "text": "Mama,",
+   "startMs": 14058,
+   "endMs": 14542
+  },
+  {
+   "text": "my",
+   "startMs": 14542,
+   "endMs": 14783
+  },
+  {
+   "text": "office",
+   "startMs": 14783,
+   "endMs": 15347
+  },
+  {
+   "text": "na",
+   "startMs": 15347,
+   "endMs": 15589
+  },
+  {
+   "text": "this",
+   "startMs": 15589,
+   "endMs": 15991
+  },
+  {
+   "text": "bed.",
+   "startMs": 15991,
+   "endMs": 16394
+  },
+  {
+   "text": "My",
+   "startMs": 16394,
+   "endMs": 16636
+  },
+  {
+   "text": "oga",
+   "startMs": 16636,
+   "endMs": 16958
+  },
+  {
+   "text": "dey",
+   "startMs": 16958,
+   "endMs": 17280
+  },
+  {
+   "text": "California.",
+   "startMs": 17280,
+   "endMs": 18247
+  },
+  {
+   "text": "E",
+   "startMs": 18247,
+   "endMs": 18408
+  },
+  {
+   "text": "never",
+   "startMs": 18408,
+   "endMs": 18891
+  },
+  {
+   "text": "even",
+   "startMs": 18891,
+   "endMs": 19294
+  },
+  {
+   "text": "sleep.",
+   "startMs": 19294,
+   "endMs": 19858,
+   "endBeat": true
+  },
+  {
+   "text": "But",
+   "startMs": 20108,
+   "endMs": 20387
+  },
+  {
+   "text": "try",
+   "startMs": 20387,
+   "endMs": 20666
+  },
+  {
+   "text": "explain",
+   "startMs": 20666,
+   "endMs": 21224
+  },
+  {
+   "text": "am.",
+   "startMs": 21224,
+   "endMs": 21503
+  },
+  {
+   "text": "I",
+   "startMs": 21503,
+   "endMs": 21643
+  },
+  {
+   "text": "tell",
+   "startMs": 21643,
+   "endMs": 21992
+  },
+  {
+   "text": "her",
+   "startMs": 21992,
+   "endMs": 22271
+  },
+  {
+   "text": "say",
+   "startMs": 22271,
+   "endMs": 22550
+  },
+  {
+   "text": "I",
+   "startMs": 22550,
+   "endMs": 22690
+  },
+  {
+   "text": "be",
+   "startMs": 22690,
+   "endMs": 22899
+  },
+  {
+   "text": "software",
+   "startMs": 22899,
+   "endMs": 23527
+  },
+  {
+   "text": "developer.",
+   "startMs": 23527,
+   "endMs": 24295
+  },
+  {
+   "text": "She",
+   "startMs": 24295,
+   "endMs": 24574
+  },
+  {
+   "text": "ask",
+   "startMs": 24574,
+   "endMs": 24853
+  },
+  {
+   "text": "me,",
+   "startMs": 24853,
+   "endMs": 25132
+  },
+  {
+   "text": "So",
+   "startMs": 25132,
+   "endMs": 25342
+  },
+  {
+   "text": "na",
+   "startMs": 25342,
+   "endMs": 25551
+  },
+  {
+   "text": "you",
+   "startMs": 25551,
+   "endMs": 25830
+  },
+  {
+   "text": "dey",
+   "startMs": 25830,
+   "endMs": 26109
+  },
+  {
+   "text": "repair",
+   "startMs": 26109,
+   "endMs": 26598
+  },
+  {
+   "text": "phone?",
+   "startMs": 26598,
+   "endMs": 27086
+  },
+  {
+   "text": "I",
+   "startMs": 27086,
+   "endMs": 27226
+  },
+  {
+   "text": "say",
+   "startMs": 27226,
+   "endMs": 27505
+  },
+  {
+   "text": "no.",
+   "startMs": 27505,
+   "endMs": 27784
+  },
+  {
+   "text": "Computer?",
+   "startMs": 27784,
+   "endMs": 28482
+  },
+  {
+   "text": "No.",
+   "startMs": 28482,
+   "endMs": 28761
+  },
+  {
+   "text": "Then",
+   "startMs": 28761,
+   "endMs": 29110
+  },
+  {
+   "text": "wetin",
+   "startMs": 29110,
+   "endMs": 29529
+  },
+  {
+   "text": "you",
+   "startMs": 29529,
+   "endMs": 29808
+  },
+  {
+   "text": "dey",
+   "startMs": 29808,
+   "endMs": 30087
+  },
+  {
+   "text": "develop?",
+   "startMs": 30087,
+   "endMs": 30715
+  },
+  {
+   "text": "I",
+   "startMs": 30715,
+   "endMs": 30855
+  },
+  {
+   "text": "say",
+   "startMs": 30855,
+   "endMs": 31134
+  },
+  {
+   "text": "website.",
+   "startMs": 31134,
+   "endMs": 31762,
+   "endBeat": true
+  },
+  {
+   "text": "She",
+   "startMs": 32012,
+   "endMs": 32345
+  },
+  {
+   "text": "look",
+   "startMs": 32345,
+   "endMs": 32761
+  },
+  {
+   "text": "me",
+   "startMs": 32761,
+   "endMs": 33010
+  },
+  {
+   "text": "well",
+   "startMs": 33010,
+   "endMs": 33426
+  },
+  {
+   "text": "well,",
+   "startMs": 33426,
+   "endMs": 33925
+  },
+  {
+   "text": "come",
+   "startMs": 33925,
+   "endMs": 34341
+  },
+  {
+   "text": "say,",
+   "startMs": 34341,
+   "endMs": 34757
+  },
+  {
+   "text": "So",
+   "startMs": 34757,
+   "endMs": 35007
+  },
+  {
+   "text": "you",
+   "startMs": 35007,
+   "endMs": 35339
+  },
+  {
+   "text": "no",
+   "startMs": 35339,
+   "endMs": 35589
+  },
+  {
+   "text": "get",
+   "startMs": 35589,
+   "endMs": 35922
+  },
+  {
+   "text": "work.",
+   "startMs": 35922,
+   "endMs": 36421,
+   "endBeat": true
+  }
+ ]
+}

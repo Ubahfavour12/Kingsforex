@@ -5,8 +5,8 @@
   "description": "3D animated videos with Three.js and Remotion",
   "scripts": {
     "dev": "remotion studio",
-    "render": "remotion render Main out/video.mp4",
-    "still": "remotion still Main out/still.png --frame=120",
+    "render": "remotion render Ep01 out/ep01.mp4",
+    "still": "remotion still CharacterSheet out/character-sheet.png",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
