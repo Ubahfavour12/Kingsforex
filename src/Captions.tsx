@@ -1,4 +1,4 @@
-import { createTikTokStyleCaptions, type Caption } from "@remotion/captions";
+import type { Caption } from "@remotion/captions";
 import { AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig } from "remotion";
 import captionsJson from "./captions.json";
 
@@ -7,18 +7,26 @@ import captionsJson from "./captions.json";
 // transcription tool (e.g. @remotion/install-whisper-cpp).
 const captions = captionsJson as Caption[];
 
-// Words that start within this window are shown on screen together.
-const { pages } = createTikTokStyleCaptions({
-  captions,
-  combineTokensWithinMilliseconds: 2500,
-});
+// A pause longer than this between two words starts a new on-screen line.
+const NEW_LINE_AFTER_PAUSE_MS = 500;
+// How long a line stays on screen after its last word.
+const LINGER_MS = 500;
 
-type Page = (typeof pages)[number];
+const lines: Caption[][] = [];
+for (const word of captions) {
+  const current = lines[lines.length - 1];
+  const previous = current?.[current.length - 1];
+  if (previous && word.startMs - previous.endMs <= NEW_LINE_AFTER_PAUSE_MS) {
+    current.push(word);
+  } else {
+    lines.push([word]);
+  }
+}
 
-const CaptionPage = ({ page }: { page: Page }) => {
+const CaptionLine = ({ words }: { words: Caption[] }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const timeMs = page.startMs + (frame / fps) * 1000;
+  const timeMs = words[0].startMs + (frame / fps) * 1000;
 
   return (
     <AbsoluteFill
@@ -35,13 +43,13 @@ const CaptionPage = ({ page }: { page: Page }) => {
           whiteSpace: "pre",
         }}
       >
-        {page.tokens.map((token) => (
+        {words.map((word) => (
           <span
-            key={token.fromMs}
-            // The word currently being spoken is highlighted in gold.
-            style={{ color: timeMs >= token.fromMs ? "#f5c542" : "white" }}
+            key={word.startMs}
+            // Words turn gold as they are spoken.
+            style={{ color: timeMs >= word.startMs ? "#f5c542" : "white" }}
           >
-            {token.text}
+            {word.text}
           </span>
         ))}
       </div>
@@ -54,14 +62,15 @@ export const Captions = () => {
 
   return (
     <>
-      {pages.map((page, i) => {
-        const from = Math.round((page.startMs / 1000) * fps);
-        const nextStart = pages[i + 1]?.startMs ?? Infinity;
-        const endMs = Math.min(nextStart, page.startMs + page.durationMs + 400);
+      {lines.map((words, i) => {
+        const startMs = words[0].startMs;
+        const nextStartMs = lines[i + 1]?.[0].startMs ?? Infinity;
+        const endMs = Math.min(nextStartMs, words[words.length - 1].endMs + LINGER_MS);
+        const from = Math.round((startMs / 1000) * fps);
         const duration = Math.max(1, Math.round((endMs / 1000) * fps) - from);
         return (
-          <Sequence key={page.startMs} from={from} durationInFrames={duration}>
-            <CaptionPage page={page} />
+          <Sequence key={startMs} from={from} durationInFrames={duration}>
+            <CaptionLine words={words} />
           </Sequence>
         );
       })}
