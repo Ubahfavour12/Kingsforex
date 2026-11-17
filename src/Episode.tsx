@@ -121,7 +121,7 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
         castShadow
         shadow-mapSize={[4096, 2048]}
         shadow-camera-left={-7}
-        shadow-camera-right={54}
+        shadow-camera-right={74}
         shadow-camera-top={10}
         shadow-camera-bottom={-7}
       />

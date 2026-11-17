@@ -9,6 +9,8 @@ export const PARLOUR_X = 18;
 export const CHURCH_X = 27;
 export const STAGE_X = 37;
 export const OFFICE_X = 48;
+export const SHOP_X = 58;
+export const YARD_X = 68;
 
 // A box with a comic-book ink outline (a slightly larger black shell seen from inside).
 export const Box = ({ size, position, color, glow = 0 }: { size: V3; position: V3; color: string; glow?: number }) => (
@@ -145,6 +147,38 @@ const Office = () => (
   </group>
 );
 
+// Iya Bose's provision store: counter, packed shelves, awning, signboard.
+const SHOP_COLORS = ["#d62f2f", "#ffd23f", "#2f8f6b", "#2f4a8f", "#f07c1e", "#ffffff"];
+const Shop = () => (
+  <group position={[SHOP_X, 0, 0]}>
+    <Box size={[5.6, 4.4, 0.3]} position={[0, 2.2, -2.2]} color="#f6e7c4" />
+    <Box size={[6.2, 0.2, 1.8]} position={[0, 3.3, -1.1]} color="#2f8f6b" />
+    <Box size={[3.4, 0.7, 0.12]} position={[0, 3.85, -0.3]} color="#ffd23f" />
+    {[0.9, 1.6, 2.3].map((y) =>
+      [-1.9, -1.4, -0.9, -0.4, 0.1, 0.6, 1.1, 1.6].map((x, i) => (
+        <Box key={`${y}-${x}`} size={[0.38, 0.45, 0.3]} position={[x, y, -1.85]} color={SHOP_COLORS[(i + y * 10) % 6]} />
+      )),
+    )}
+    <Box size={[3.6, 1.0, 0.7]} position={[0, 0.5, -0.4]} color="#7a4a2b" />
+    <Box size={[0.5, 0.6, 0.5]} position={[2.4, 0.3, 0.2]} color="#ffffff" />
+  </group>
+);
+
+// Back yard: generator, jerrycan, clothesline, water drum.
+const Yard = () => (
+  <group position={[YARD_X, 0, 0]}>
+    <Box size={[6, 3.0, 0.3]} position={[0, 1.5, -2.2]} color="#c98f63" />
+    <Box size={[1.1, 0.75, 0.7]} position={[-0.6, 0.38, -0.6]} color="#d62f2f" />
+    <Box size={[0.9, 0.12, 0.5]} position={[-0.6, 0.82, -0.6]} color="#20242c" />
+    <Box size={[0.4, 0.55, 0.25]} position={[0.5, 0.28, -0.3]} color="#ffd23f" />
+    <Box size={[0.7, 1.0, 0.7]} position={[2.1, 0.5, -1.2]} color="#2f4a8f" />
+    <Box size={[5, 0.04, 0.04]} position={[0, 2.4, -1.5]} color="#ffffff" />
+    {[-1.6, -0.6, 0.6].map((x, i) => (
+      <Box key={x} size={[0.6, 0.7, 0.03]} position={[x, 2.0, -1.5]} color={SHOP_COLORS[i + 1]} />
+    ))}
+  </group>
+);
+
 export const Sets = ({ flags }: { flags: string[] }) => (
   <>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[24, 0, 0]} receiveShadow>
@@ -157,5 +191,7 @@ export const Sets = ({ flags }: { flags: string[] }) => (
     <Church />
     <Stage screen={flags.includes("screen-red") ? "#d62f2f" : "#7fd0ff"} />
     <Office />
+    <Shop />
+    <Yard />
   </>
 );
