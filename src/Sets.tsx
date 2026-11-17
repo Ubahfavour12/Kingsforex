@@ -11,6 +11,7 @@ export const STAGE_X = 37;
 export const OFFICE_X = 48;
 export const SHOP_X = 58;
 export const YARD_X = 68;
+export const CAFE_X = 78;
 
 // A box with a comic-book ink outline (a slightly larger black shell seen from inside).
 export const Box = ({ size, position, color, glow = 0 }: { size: V3; position: V3; color: string; glow?: number }) => (
@@ -179,6 +180,23 @@ const Yard = () => (
   </group>
 );
 
+// Cyber cafe: a row of old monitors on a long desk, plastic chairs, banner.
+const Cafe = () => (
+  <group position={[CAFE_X, 0, 0]}>
+    <Box size={[6, 0.1, 4.4]} position={[0, 0.05, -0.3]} color="#9aa3ad" />
+    <Box size={[6, 7, 0.2]} position={[0, 3.5, -2.5]} color="#cfe8f5" />
+    <Box size={[3.4, 0.6, 0.06]} position={[0, 3.2, -2.36]} color="#2f4a8f" />
+    <Box size={[5, 0.12, 0.9]} position={[0, 0.9, -1.6]} color="#7a4a2b" />
+    {[-1.8, -0.6, 0.6, 1.8].map((x) => (
+      <group key={x}>
+        <Box size={[0.7, 0.55, 0.45]} position={[x, 1.25, -1.75]} color="#d9d4c4" />
+        <Box size={[0.55, 0.42, 0.04]} position={[x, 1.27, -1.51]} color="#7fd0ff" glow={0.6} />
+        <Box size={[0.5, 0.45, 0.5]} position={[x, 0.45, -0.7]} color="#d62f2f" />
+      </group>
+    ))}
+  </group>
+);
+
 export const Sets = ({ flags }: { flags: string[] }) => (
   <>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[24, 0, 0]} receiveShadow>
@@ -193,5 +211,6 @@ export const Sets = ({ flags }: { flags: string[] }) => (
     <Office />
     <Shop />
     <Yard />
+    <Cafe />
   </>
 );
