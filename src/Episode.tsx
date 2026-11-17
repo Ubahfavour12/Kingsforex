@@ -3,9 +3,9 @@
 // An episode is just data — see ep01.tsx.
 import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import { AbsoluteFill, Audio, Easing, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import type { Texture } from "three";
+import { Object3D } from "three";
 import { Captions, type Word } from "./Captions";
 import { Character, type Expression, type Who } from "./Character";
 import { INK, Sets, type V3 } from "./Sets";
@@ -76,9 +76,7 @@ const shotAt = (shot: Shot, t: number) => ({
 
 // The camera never cuts: it glides (slow in, slow out) from where the last
 // segment left it, then keeps pushing in slowly while the segment plays.
-const CameraRig = ({ segs, index }: { segs: Timed[]; index: number }) => {
-  const frame = useCurrentFrame();
-  const camera = useThree((s) => s.camera);
+const cameraAt = (segs: Timed[], index: number, frame: number) => {
   const seg = segs[index];
   let { pos, look } = shotAt(seg.shot, (frame - seg.from) / Math.max(1, seg.to - seg.from));
   if (index > 0) {
@@ -91,6 +89,11 @@ const CameraRig = ({ segs, index }: { segs: Timed[]; index: number }) => {
     pos = lerp(before.pos, pos, t);
     look = lerp(before.look, look, t);
   }
+  return { pos, look };
+};
+
+const CameraRig = ({ pos, look }: { pos: V3; look: V3 }) => {
+  const camera = useThree((s) => s.camera);
   camera.position.set(...pos);
   camera.lookAt(...look);
   return null;
@@ -99,6 +102,7 @@ const CameraRig = ({ segs, index }: { segs: Timed[]; index: number }) => {
 const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> }) => {
   const frame = useCurrentFrame();
   const tex = useSvgTextures(specs);
+  const [sunTarget] = useState(() => new Object3D());
   if (!tex) return null;
 
   const index = Math.max(0, segs.findIndex((s) => frame >= s.from && frame < s.to));
@@ -110,23 +114,29 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
     extrapolateRight: "clamp",
   });
 
+  const cam = cameraAt(segs, index, frame);
+  // the sun and its shadow box travel with the camera, so a small shadow map stays sharp
+  const sunX = cam.look[0];
+
   return (
     <>
-      <CameraRig segs={segs} index={index} />
+      <CameraRig pos={cam.pos} look={cam.look} />
+      <primitive object={sunTarget} position={[sunX, 0, 0]} />
       <ambientLight intensity={1.5 + night * 0.2} color={night > 0.5 ? "#c4d2ff" : "#ffe9d2"} />
       <directionalLight
-        position={[5, 9, 7]}
+        position={[sunX + 5, 9, 7]}
+        target={sunTarget}
         intensity={2.2 - night * 1.5}
         color={night > 0.5 ? "#8fa8ff" : "#fff1d6"}
         castShadow
-        shadow-mapSize={[4096, 2048]}
-        shadow-camera-left={-7}
-        shadow-camera-right={74}
-        shadow-camera-top={10}
-        shadow-camera-bottom={-7}
+        shadow-mapSize={[2048, 2048]}
+        shadow-camera-left={-9}
+        shadow-camera-right={9}
+        shadow-camera-top={9}
+        shadow-camera-bottom={-9}
       />
       {/* cool fill gives the blue shadow tone */}
-      <pointLight position={[seg.shot.look[0] - 3, 2.5, 2]} intensity={14} color="#7fa8ff" />
+      <pointLight position={[sunX - 3, 2.5, 2]} intensity={14} color="#7fa8ff" />
       <Sets flags={seg.flags ?? []} />
 
       {(Object.keys(seg.cast ?? {}) as Who[]).map((who) => {
@@ -160,8 +170,7 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
         if (local < start || local >= length * p1) return null;
         const map = tex[gagKey(g)];
         // keep the bubble inside the 9:16 frame: the view is about 0.43 x distance wide
-        const cam = shotAt(seg.shot, local / length).pos;
-        const view = 0.43 * Math.hypot(...cam.map((v, k) => v - g.at[k]));
+        const view = 0.43 * Math.hypot(...cam.pos.map((v, k) => v - g.at[k]));
         const w = Math.min(g.w ?? 1.6, view * 0.8); // spring overshoot needs headroom
         const room = Math.max(0, (view * 0.94 - w) / 2);
         const x = Math.min(Math.max(g.at[0], seg.shot.look[0] - room), seg.shot.look[0] + room);
