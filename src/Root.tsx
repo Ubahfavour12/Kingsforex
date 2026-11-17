@@ -25,6 +25,10 @@ import { Ep11 } from "./ep11";
 import ep11 from "./ep11.json";
 import { Ep12 } from "./ep12";
 import ep12 from "./ep12.json";
+import { Ep13 } from "./ep13";
+import ep13 from "./ep13.json";
+import { Ep14 } from "./ep14";
+import ep14 from "./ep14.json";
 
 export const Root = () => (
   <>
@@ -41,6 +45,8 @@ export const Root = () => (
     <Composition id="Ep10" component={Ep10} durationInFrames={episodeFrames(ep10)} fps={FPS} width={1080} height={1920} />
     <Composition id="Ep11" component={Ep11} durationInFrames={episodeFrames(ep11)} fps={FPS} width={1080} height={1920} />
     <Composition id="Ep12" component={Ep12} durationInFrames={episodeFrames(ep12)} fps={FPS} width={1080} height={1920} />
+    <Composition id="Ep13" component={Ep13} durationInFrames={episodeFrames(ep13)} fps={FPS} width={1080} height={1920} />
+    <Composition id="Ep14" component={Ep14} durationInFrames={episodeFrames(ep14)} fps={FPS} width={1080} height={1920} />
     <Composition id="CharacterSheet" component={CharacterSheet} durationInFrames={1} fps={FPS} width={1920} height={1080} />
   </>
 );

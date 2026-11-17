@@ -57,7 +57,7 @@ const Bubble = ({ text, fill = "white", color = INK }: { text: string; fill?: st
       textAnchor="middle"
       fontFamily="Arial, sans-serif"
       fontWeight="900"
-      fontSize={Math.min(46, 560 / text.length)}
+      fontSize={Math.min(44, 520 / text.length)}
       fill={color}
     >
       {text}
