@@ -1,0 +1,1831 @@
+{
+ "beats": [
+  {
+   "startMs": 0,
+   "endMs": 7310
+  },
+  {
+   "startMs": 7560,
+   "endMs": 17180
+  },
+  {
+   "startMs": 17430,
+   "endMs": 23970
+  },
+  {
+   "startMs": 24220,
+   "endMs": 28070
+  },
+  {
+   "startMs": 28320,
+   "endMs": 36400
+  },
+  {
+   "startMs": 36650,
+   "endMs": 43190
+  },
+  {
+   "startMs": 43440,
+   "endMs": 54590
+  },
+  {
+   "startMs": 54840,
+   "endMs": 59460
+  },
+  {
+   "startMs": 59710,
+   "endMs": 66630
+  },
+  {
+   "startMs": 66880,
+   "endMs": 72650
+  },
+  {
+   "startMs": 72900,
+   "endMs": 75210
+  },
+  {
+   "startMs": 75460,
+   "endMs": 89310
+  },
+  {
+   "startMs": 89560,
+   "endMs": 93410
+  },
+  {
+   "startMs": 93660,
+   "endMs": 101350
+  },
+  {
+   "startMs": 101600,
+   "endMs": 105450
+  },
+  {
+   "startMs": 105700,
+   "endMs": 118010
+  },
+  {
+   "startMs": 118260,
+   "endMs": 128640
+  },
+  {
+   "startMs": 128890,
+   "endMs": 137740
+  }
+ ],
+ "captions": [
+  {
+   "text": "I",
+   "startMs": 0,
+   "endMs": 154
+  },
+  {
+   "text": "get",
+   "startMs": 154,
+   "endMs": 462
+  },
+  {
+   "text": "five",
+   "startMs": 462,
+   "endMs": 846
+  },
+  {
+   "text": "thousand",
+   "startMs": 846,
+   "endMs": 1539
+  },
+  {
+   "text": "naira,",
+   "startMs": 1539,
+   "endMs": 2078
+  },
+  {
+   "text": "and",
+   "startMs": 2078,
+   "endMs": 2385
+  },
+  {
+   "text": "I",
+   "startMs": 2385,
+   "endMs": 2539
+  },
+  {
+   "text": "must",
+   "startMs": 2539,
+   "endMs": 2924
+  },
+  {
+   "text": "choose",
+   "startMs": 2924,
+   "endMs": 3463
+  },
+  {
+   "text": "between",
+   "startMs": 3463,
+   "endMs": 4078
+  },
+  {
+   "text": "light",
+   "startMs": 4078,
+   "endMs": 4540
+  },
+  {
+   "text": "and",
+   "startMs": 4540,
+   "endMs": 4848
+  },
+  {
+   "text": "internet.",
+   "startMs": 4848,
+   "endMs": 5617
+  },
+  {
+   "text": "I",
+   "startMs": 5617,
+   "endMs": 5771
+  },
+  {
+   "text": "no",
+   "startMs": 5771,
+   "endMs": 6002
+  },
+  {
+   "text": "fit",
+   "startMs": 6002,
+   "endMs": 6310
+  },
+  {
+   "text": "get",
+   "startMs": 6310,
+   "endMs": 6617
+  },
+  {
+   "text": "the",
+   "startMs": 6617,
+   "endMs": 6925
+  },
+  {
+   "text": "two.",
+   "startMs": 6925,
+   "endMs": 7310,
+   "endBeat": true
+  },
+  {
+   "text": "Na",
+   "startMs": 7560,
+   "endMs": 7760
+  },
+  {
+   "text": "Thursday.",
+   "startMs": 7760,
+   "endMs": 8428
+  },
+  {
+   "text": "My",
+   "startMs": 8428,
+   "endMs": 8629
+  },
+  {
+   "text": "salary",
+   "startMs": 8629,
+   "endMs": 9097
+  },
+  {
+   "text": "never",
+   "startMs": 9097,
+   "endMs": 9497
+  },
+  {
+   "text": "enter.",
+   "startMs": 9497,
+   "endMs": 9965
+  },
+  {
+   "text": "For",
+   "startMs": 9965,
+   "endMs": 10232
+  },
+  {
+   "text": "my",
+   "startMs": 10232,
+   "endMs": 10433
+  },
+  {
+   "text": "account,",
+   "startMs": 10433,
+   "endMs": 11034
+  },
+  {
+   "text": "five",
+   "startMs": 11034,
+   "endMs": 11368
+  },
+  {
+   "text": "thousand.",
+   "startMs": 11368,
+   "endMs": 12036
+  },
+  {
+   "text": "For",
+   "startMs": 12036,
+   "endMs": 12303
+  },
+  {
+   "text": "my",
+   "startMs": 12303,
+   "endMs": 12504
+  },
+  {
+   "text": "generator,",
+   "startMs": 12504,
+   "endMs": 13238
+  },
+  {
+   "text": "fuel",
+   "startMs": 13238,
+   "endMs": 13572
+  },
+  {
+   "text": "don",
+   "startMs": 13572,
+   "endMs": 13840
+  },
+  {
+   "text": "finish.",
+   "startMs": 13840,
+   "endMs": 14374
+  },
+  {
+   "text": "For",
+   "startMs": 14374,
+   "endMs": 14641
+  },
+  {
+   "text": "my",
+   "startMs": 14641,
+   "endMs": 14842
+  },
+  {
+   "text": "phone,",
+   "startMs": 14842,
+   "endMs": 15309
+  },
+  {
+   "text": "data",
+   "startMs": 15309,
+   "endMs": 15643
+  },
+  {
+   "text": "remain",
+   "startMs": 15643,
+   "endMs": 16111
+  },
+  {
+   "text": "two",
+   "startMs": 16111,
+   "endMs": 16378
+  },
+  {
+   "text": "hundred",
+   "startMs": 16378,
+   "endMs": 16913
+  },
+  {
+   "text": "MB.",
+   "startMs": 16913,
+   "endMs": 17180,
+   "endBeat": true
+  },
+  {
+   "text": "And",
+   "startMs": 17430,
+   "endMs": 17711
+  },
+  {
+   "text": "by",
+   "startMs": 17711,
+   "endMs": 17922
+  },
+  {
+   "text": "eight",
+   "startMs": 17922,
+   "endMs": 18344
+  },
+  {
+   "text": "o'clock",
+   "startMs": 18344,
+   "endMs": 18907
+  },
+  {
+   "text": "tonight,",
+   "startMs": 18907,
+   "endMs": 19540
+  },
+  {
+   "text": "I",
+   "startMs": 19540,
+   "endMs": 19680
+  },
+  {
+   "text": "get",
+   "startMs": 19680,
+   "endMs": 19962
+  },
+  {
+   "text": "meeting",
+   "startMs": 19962,
+   "endMs": 20524
+  },
+  {
+   "text": "with",
+   "startMs": 20524,
+   "endMs": 20876
+  },
+  {
+   "text": "client",
+   "startMs": 20876,
+   "endMs": 21368
+  },
+  {
+   "text": "wey",
+   "startMs": 21368,
+   "endMs": 21649
+  },
+  {
+   "text": "fit",
+   "startMs": 21649,
+   "endMs": 21931
+  },
+  {
+   "text": "give",
+   "startMs": 21931,
+   "endMs": 22282
+  },
+  {
+   "text": "me",
+   "startMs": 22282,
+   "endMs": 22493
+  },
+  {
+   "text": "six",
+   "startMs": 22493,
+   "endMs": 22775
+  },
+  {
+   "text": "months",
+   "startMs": 22775,
+   "endMs": 23267
+  },
+  {
+   "text": "contract.",
+   "startMs": 23267,
+   "endMs": 23970,
+   "endBeat": true
+  },
+  {
+   "text": "Simple",
+   "startMs": 24220,
+   "endMs": 24669
+  },
+  {
+   "text": "maths.",
+   "startMs": 24669,
+   "endMs": 25118
+  },
+  {
+   "text": "Fuel",
+   "startMs": 25118,
+   "endMs": 25439
+  },
+  {
+   "text": "na",
+   "startMs": 25439,
+   "endMs": 25632
+  },
+  {
+   "text": "five",
+   "startMs": 25632,
+   "endMs": 25952
+  },
+  {
+   "text": "thousand.",
+   "startMs": 25952,
+   "endMs": 26594
+  },
+  {
+   "text": "Data",
+   "startMs": 26594,
+   "endMs": 26915
+  },
+  {
+   "text": "na",
+   "startMs": 26915,
+   "endMs": 27108
+  },
+  {
+   "text": "five",
+   "startMs": 27108,
+   "endMs": 27428
+  },
+  {
+   "text": "thousand.",
+   "startMs": 27428,
+   "endMs": 28070,
+   "endBeat": true
+  },
+  {
+   "text": "If",
+   "startMs": 28320,
+   "endMs": 28572
+  },
+  {
+   "text": "I",
+   "startMs": 28572,
+   "endMs": 28741
+  },
+  {
+   "text": "buy",
+   "startMs": 28741,
+   "endMs": 29078
+  },
+  {
+   "text": "fuel,",
+   "startMs": 29078,
+   "endMs": 29582
+  },
+  {
+   "text": "I",
+   "startMs": 29582,
+   "endMs": 29751
+  },
+  {
+   "text": "go",
+   "startMs": 29751,
+   "endMs": 30003
+  },
+  {
+   "text": "get",
+   "startMs": 30003,
+   "endMs": 30340
+  },
+  {
+   "text": "light,",
+   "startMs": 30340,
+   "endMs": 30929
+  },
+  {
+   "text": "but",
+   "startMs": 30929,
+   "endMs": 31266
+  },
+  {
+   "text": "no",
+   "startMs": 31266,
+   "endMs": 31518
+  },
+  {
+   "text": "internet.",
+   "startMs": 31518,
+   "endMs": 32360
+  },
+  {
+   "text": "I",
+   "startMs": 32360,
+   "endMs": 32528
+  },
+  {
+   "text": "go",
+   "startMs": 32528,
+   "endMs": 32781
+  },
+  {
+   "text": "just",
+   "startMs": 32781,
+   "endMs": 33202
+  },
+  {
+   "text": "siddon",
+   "startMs": 33202,
+   "endMs": 33791
+  },
+  {
+   "text": "for",
+   "startMs": 33791,
+   "endMs": 34128
+  },
+  {
+   "text": "bright",
+   "startMs": 34128,
+   "endMs": 34717
+  },
+  {
+   "text": "room",
+   "startMs": 34717,
+   "endMs": 35138
+  },
+  {
+   "text": "dey",
+   "startMs": 35138,
+   "endMs": 35474
+  },
+  {
+   "text": "look",
+   "startMs": 35474,
+   "endMs": 35895
+  },
+  {
+   "text": "wall.",
+   "startMs": 35895,
+   "endMs": 36400,
+   "endBeat": true
+  },
+  {
+   "text": "If",
+   "startMs": 36650,
+   "endMs": 36902
+  },
+  {
+   "text": "I",
+   "startMs": 36902,
+   "endMs": 37069
+  },
+  {
+   "text": "buy",
+   "startMs": 37069,
+   "endMs": 37405
+  },
+  {
+   "text": "data,",
+   "startMs": 37405,
+   "endMs": 37908
+  },
+  {
+   "text": "I",
+   "startMs": 37908,
+   "endMs": 38075
+  },
+  {
+   "text": "go",
+   "startMs": 38075,
+   "endMs": 38327
+  },
+  {
+   "text": "get",
+   "startMs": 38327,
+   "endMs": 38662
+  },
+  {
+   "text": "internet,",
+   "startMs": 38662,
+   "endMs": 39501
+  },
+  {
+   "text": "but",
+   "startMs": 39501,
+   "endMs": 39836
+  },
+  {
+   "text": "my",
+   "startMs": 39836,
+   "endMs": 40088
+  },
+  {
+   "text": "laptop",
+   "startMs": 40088,
+   "endMs": 40675
+  },
+  {
+   "text": "go",
+   "startMs": 40675,
+   "endMs": 40926
+  },
+  {
+   "text": "die",
+   "startMs": 40926,
+   "endMs": 41262
+  },
+  {
+   "text": "for",
+   "startMs": 41262,
+   "endMs": 41597
+  },
+  {
+   "text": "middle",
+   "startMs": 41597,
+   "endMs": 42184
+  },
+  {
+   "text": "of",
+   "startMs": 42184,
+   "endMs": 42435
+  },
+  {
+   "text": "meeting.",
+   "startMs": 42435,
+   "endMs": 43190,
+   "endBeat": true
+  },
+  {
+   "text": "I",
+   "startMs": 43440,
+   "endMs": 43605
+  },
+  {
+   "text": "try",
+   "startMs": 43605,
+   "endMs": 43936
+  },
+  {
+   "text": "be",
+   "startMs": 43936,
+   "endMs": 44183
+  },
+  {
+   "text": "smart.",
+   "startMs": 44183,
+   "endMs": 44761
+  },
+  {
+   "text": "I",
+   "startMs": 44761,
+   "endMs": 44927
+  },
+  {
+   "text": "go",
+   "startMs": 44927,
+   "endMs": 45174
+  },
+  {
+   "text": "meet",
+   "startMs": 45174,
+   "endMs": 45587
+  },
+  {
+   "text": "Chairman.",
+   "startMs": 45587,
+   "endMs": 46413
+  },
+  {
+   "text": "I",
+   "startMs": 46413,
+   "endMs": 46579
+  },
+  {
+   "text": "say,",
+   "startMs": 46579,
+   "endMs": 46991
+  },
+  {
+   "text": "You",
+   "startMs": 46991,
+   "endMs": 47322
+  },
+  {
+   "text": "get",
+   "startMs": 47322,
+   "endMs": 47652
+  },
+  {
+   "text": "inverter.",
+   "startMs": 47652,
+   "endMs": 48478
+  },
+  {
+   "text": "Make",
+   "startMs": 48478,
+   "endMs": 48891
+  },
+  {
+   "text": "I",
+   "startMs": 48891,
+   "endMs": 49056
+  },
+  {
+   "text": "charge.",
+   "startMs": 49056,
+   "endMs": 49717
+  },
+  {
+   "text": "E",
+   "startMs": 49717,
+   "endMs": 49882
+  },
+  {
+   "text": "say",
+   "startMs": 49882,
+   "endMs": 50213
+  },
+  {
+   "text": "im",
+   "startMs": 50213,
+   "endMs": 50460
+  },
+  {
+   "text": "inverter",
+   "startMs": 50460,
+   "endMs": 51204
+  },
+  {
+   "text": "don",
+   "startMs": 51204,
+   "endMs": 51534
+  },
+  {
+   "text": "spoil,",
+   "startMs": 51534,
+   "endMs": 52112
+  },
+  {
+   "text": "but",
+   "startMs": 52112,
+   "endMs": 52443
+  },
+  {
+   "text": "e",
+   "startMs": 52443,
+   "endMs": 52608
+  },
+  {
+   "text": "fit",
+   "startMs": 52608,
+   "endMs": 52938
+  },
+  {
+   "text": "sell",
+   "startMs": 52938,
+   "endMs": 53351
+  },
+  {
+   "text": "me",
+   "startMs": 53351,
+   "endMs": 53599
+  },
+  {
+   "text": "power",
+   "startMs": 53599,
+   "endMs": 54094
+  },
+  {
+   "text": "bank.",
+   "startMs": 54094,
+   "endMs": 54590,
+   "endBeat": true
+  },
+  {
+   "text": "I",
+   "startMs": 54840,
+   "endMs": 54999
+  },
+  {
+   "text": "look",
+   "startMs": 54999,
+   "endMs": 55398
+  },
+  {
+   "text": "am.",
+   "startMs": 55398,
+   "endMs": 55716
+  },
+  {
+   "text": "The",
+   "startMs": 55716,
+   "endMs": 56035
+  },
+  {
+   "text": "power",
+   "startMs": 56035,
+   "endMs": 56513
+  },
+  {
+   "text": "bank",
+   "startMs": 56513,
+   "endMs": 56911
+  },
+  {
+   "text": "na",
+   "startMs": 56911,
+   "endMs": 57150
+  },
+  {
+   "text": "empty",
+   "startMs": 57150,
+   "endMs": 57628
+  },
+  {
+   "text": "case.",
+   "startMs": 57628,
+   "endMs": 58106
+  },
+  {
+   "text": "Sand",
+   "startMs": 58106,
+   "endMs": 58504
+  },
+  {
+   "text": "dey",
+   "startMs": 58504,
+   "endMs": 58823
+  },
+  {
+   "text": "inside.",
+   "startMs": 58823,
+   "endMs": 59460,
+   "endBeat": true
+  },
+  {
+   "text": "I",
+   "startMs": 59710,
+   "endMs": 59866
+  },
+  {
+   "text": "go",
+   "startMs": 59866,
+   "endMs": 60099
+  },
+  {
+   "text": "meet",
+   "startMs": 60099,
+   "endMs": 60488
+  },
+  {
+   "text": "Iya",
+   "startMs": 60488,
+   "endMs": 60799
+  },
+  {
+   "text": "Bose.",
+   "startMs": 60799,
+   "endMs": 61265
+  },
+  {
+   "text": "Abeg,",
+   "startMs": 61265,
+   "endMs": 61732
+  },
+  {
+   "text": "borrow",
+   "startMs": 61732,
+   "endMs": 62276
+  },
+  {
+   "text": "me",
+   "startMs": 62276,
+   "endMs": 62509
+  },
+  {
+   "text": "data.",
+   "startMs": 62509,
+   "endMs": 62976
+  },
+  {
+   "text": "She",
+   "startMs": 62976,
+   "endMs": 63287
+  },
+  {
+   "text": "say,",
+   "startMs": 63287,
+   "endMs": 63675
+  },
+  {
+   "text": "Na",
+   "startMs": 63675,
+   "endMs": 63909
+  },
+  {
+   "text": "sugar?",
+   "startMs": 63909,
+   "endMs": 64453
+  },
+  {
+   "text": "How",
+   "startMs": 64453,
+   "endMs": 64764
+  },
+  {
+   "text": "person",
+   "startMs": 64764,
+   "endMs": 65308
+  },
+  {
+   "text": "dey",
+   "startMs": 65308,
+   "endMs": 65619
+  },
+  {
+   "text": "borrow",
+   "startMs": 65619,
+   "endMs": 66163
+  },
+  {
+   "text": "data?",
+   "startMs": 66163,
+   "endMs": 66630,
+   "endBeat": true
+  },
+  {
+   "text": "I",
+   "startMs": 66880,
+   "endMs": 67017
+  },
+  {
+   "text": "try",
+   "startMs": 67017,
+   "endMs": 67292
+  },
+  {
+   "text": "the",
+   "startMs": 67292,
+   "endMs": 67567
+  },
+  {
+   "text": "neighbour",
+   "startMs": 67567,
+   "endMs": 68254
+  },
+  {
+   "text": "Wi-Fi.",
+   "startMs": 68254,
+   "endMs": 68735
+  },
+  {
+   "text": "Password",
+   "startMs": 68735,
+   "endMs": 69353
+  },
+  {
+   "text": "don",
+   "startMs": 69353,
+   "endMs": 69628
+  },
+  {
+   "text": "change.",
+   "startMs": 69628,
+   "endMs": 70177
+  },
+  {
+   "text": "Dem",
+   "startMs": 70177,
+   "endMs": 70452
+  },
+  {
+   "text": "name",
+   "startMs": 70452,
+   "endMs": 70795
+  },
+  {
+   "text": "the",
+   "startMs": 70795,
+   "endMs": 71070
+  },
+  {
+   "text": "network,",
+   "startMs": 71070,
+   "endMs": 71688
+  },
+  {
+   "text": "Pay",
+   "startMs": 71688,
+   "endMs": 71963
+  },
+  {
+   "text": "your",
+   "startMs": 71963,
+   "endMs": 72307
+  },
+  {
+   "text": "own.",
+   "startMs": 72307,
+   "endMs": 72650,
+   "endBeat": true
+  },
+  {
+   "text": "Time:",
+   "startMs": 72900,
+   "endMs": 73265
+  },
+  {
+   "text": "seven",
+   "startMs": 73265,
+   "endMs": 73629
+  },
+  {
+   "text": "o'clock.",
+   "startMs": 73629,
+   "endMs": 74177
+  },
+  {
+   "text": "One",
+   "startMs": 74177,
+   "endMs": 74420
+  },
+  {
+   "text": "hour",
+   "startMs": 74420,
+   "endMs": 74724
+  },
+  {
+   "text": "remain.",
+   "startMs": 74724,
+   "endMs": 75210,
+   "endBeat": true
+  },
+  {
+   "text": "So",
+   "startMs": 75460,
+   "endMs": 75693
+  },
+  {
+   "text": "I",
+   "startMs": 75693,
+   "endMs": 75849
+  },
+  {
+   "text": "buy",
+   "startMs": 75849,
+   "endMs": 76160
+  },
+  {
+   "text": "data.",
+   "startMs": 76160,
+   "endMs": 76627
+  },
+  {
+   "text": "I",
+   "startMs": 76627,
+   "endMs": 76783
+  },
+  {
+   "text": "say",
+   "startMs": 76783,
+   "endMs": 77094
+  },
+  {
+   "text": "I",
+   "startMs": 77094,
+   "endMs": 77250
+  },
+  {
+   "text": "go",
+   "startMs": 77250,
+   "endMs": 77483
+  },
+  {
+   "text": "manage",
+   "startMs": 77483,
+   "endMs": 78028
+  },
+  {
+   "text": "battery.",
+   "startMs": 78028,
+   "endMs": 78728
+  },
+  {
+   "text": "I",
+   "startMs": 78728,
+   "endMs": 78884
+  },
+  {
+   "text": "reduce",
+   "startMs": 78884,
+   "endMs": 79428
+  },
+  {
+   "text": "brightness",
+   "startMs": 79428,
+   "endMs": 80284
+  },
+  {
+   "text": "sotay",
+   "startMs": 80284,
+   "endMs": 80751
+  },
+  {
+   "text": "I",
+   "startMs": 80751,
+   "endMs": 80907
+  },
+  {
+   "text": "no",
+   "startMs": 80907,
+   "endMs": 81140
+  },
+  {
+   "text": "fit",
+   "startMs": 81140,
+   "endMs": 81451
+  },
+  {
+   "text": "see",
+   "startMs": 81451,
+   "endMs": 81763
+  },
+  {
+   "text": "my",
+   "startMs": 81763,
+   "endMs": 81996
+  },
+  {
+   "text": "own",
+   "startMs": 81996,
+   "endMs": 82307
+  },
+  {
+   "text": "screen.",
+   "startMs": 82307,
+   "endMs": 82930
+  },
+  {
+   "text": "I",
+   "startMs": 82930,
+   "endMs": 83085
+  },
+  {
+   "text": "off",
+   "startMs": 83085,
+   "endMs": 83397
+  },
+  {
+   "text": "Bluetooth.",
+   "startMs": 83397,
+   "endMs": 84252
+  },
+  {
+   "text": "I",
+   "startMs": 84252,
+   "endMs": 84408
+  },
+  {
+   "text": "off",
+   "startMs": 84408,
+   "endMs": 84719
+  },
+  {
+   "text": "everything.",
+   "startMs": 84719,
+   "endMs": 85653
+  },
+  {
+   "text": "I",
+   "startMs": 85653,
+   "endMs": 85809
+  },
+  {
+   "text": "dey",
+   "startMs": 85809,
+   "endMs": 86120
+  },
+  {
+   "text": "breathe",
+   "startMs": 86120,
+   "endMs": 86742
+  },
+  {
+   "text": "small",
+   "startMs": 86742,
+   "endMs": 87209
+  },
+  {
+   "text": "small",
+   "startMs": 87209,
+   "endMs": 87676
+  },
+  {
+   "text": "make",
+   "startMs": 87676,
+   "endMs": 88065
+  },
+  {
+   "text": "laptop",
+   "startMs": 88065,
+   "endMs": 88610
+  },
+  {
+   "text": "no",
+   "startMs": 88610,
+   "endMs": 88843
+  },
+  {
+   "text": "hear.",
+   "startMs": 88843,
+   "endMs": 89310,
+   "endBeat": true
+  },
+  {
+   "text": "Eight",
+   "startMs": 89560,
+   "endMs": 89872
+  },
+  {
+   "text": "o'clock.",
+   "startMs": 89872,
+   "endMs": 90340
+  },
+  {
+   "text": "Meeting",
+   "startMs": 90340,
+   "endMs": 90757
+  },
+  {
+   "text": "start.",
+   "startMs": 90757,
+   "endMs": 91121
+  },
+  {
+   "text": "Client",
+   "startMs": 91121,
+   "endMs": 91485
+  },
+  {
+   "text": "face",
+   "startMs": 91485,
+   "endMs": 91745
+  },
+  {
+   "text": "show.",
+   "startMs": 91745,
+   "endMs": 92057
+  },
+  {
+   "text": "Battery,",
+   "startMs": 92057,
+   "endMs": 92526
+  },
+  {
+   "text": "fifteen",
+   "startMs": 92526,
+   "endMs": 92942
+  },
+  {
+   "text": "percent.",
+   "startMs": 92942,
+   "endMs": 93410,
+   "endBeat": true
+  },
+  {
+   "text": "E",
+   "startMs": 93660,
+   "endMs": 93802
+  },
+  {
+   "text": "dey",
+   "startMs": 93802,
+   "endMs": 94087
+  },
+  {
+   "text": "talk",
+   "startMs": 94087,
+   "endMs": 94443
+  },
+  {
+   "text": "long.",
+   "startMs": 94443,
+   "endMs": 94870
+  },
+  {
+   "text": "Tell",
+   "startMs": 94870,
+   "endMs": 95226
+  },
+  {
+   "text": "me",
+   "startMs": 95226,
+   "endMs": 95440
+  },
+  {
+   "text": "about",
+   "startMs": 95440,
+   "endMs": 95867
+  },
+  {
+   "text": "yourself.",
+   "startMs": 95867,
+   "endMs": 96579
+  },
+  {
+   "text": "Oga,",
+   "startMs": 96579,
+   "endMs": 96935
+  },
+  {
+   "text": "no",
+   "startMs": 96935,
+   "endMs": 97149
+  },
+  {
+   "text": "time!",
+   "startMs": 97149,
+   "endMs": 97576
+  },
+  {
+   "text": "Ten",
+   "startMs": 97576,
+   "endMs": 97861
+  },
+  {
+   "text": "percent.",
+   "startMs": 97861,
+   "endMs": 98502
+  },
+  {
+   "text": "I",
+   "startMs": 98502,
+   "endMs": 98644
+  },
+  {
+   "text": "dey",
+   "startMs": 98644,
+   "endMs": 98929
+  },
+  {
+   "text": "answer",
+   "startMs": 98929,
+   "endMs": 99428
+  },
+  {
+   "text": "fast",
+   "startMs": 99428,
+   "endMs": 99784
+  },
+  {
+   "text": "fast",
+   "startMs": 99784,
+   "endMs": 100140
+  },
+  {
+   "text": "like",
+   "startMs": 100140,
+   "endMs": 100496
+  },
+  {
+   "text": "auctioneer.",
+   "startMs": 100496,
+   "endMs": 101350,
+   "endBeat": true
+  },
+  {
+   "text": "Seven",
+   "startMs": 101600,
+   "endMs": 101973
+  },
+  {
+   "text": "percent.",
+   "startMs": 101973,
+   "endMs": 102531
+  },
+  {
+   "text": "E",
+   "startMs": 102531,
+   "endMs": 102656
+  },
+  {
+   "text": "say,",
+   "startMs": 102656,
+   "endMs": 102966
+  },
+  {
+   "text": "One",
+   "startMs": 102966,
+   "endMs": 103215
+  },
+  {
+   "text": "last",
+   "startMs": 103215,
+   "endMs": 103525
+  },
+  {
+   "text": "question.",
+   "startMs": 103525,
+   "endMs": 104146
+  },
+  {
+   "text": "Five",
+   "startMs": 104146,
+   "endMs": 104456
+  },
+  {
+   "text": "percent.",
+   "startMs": 104456,
+   "endMs": 105015
+  },
+  {
+   "text": "Three.",
+   "startMs": 105015,
+   "endMs": 105450,
+   "endBeat": true
+  },
+  {
+   "text": "You",
+   "startMs": 105700,
+   "endMs": 105995
+  },
+  {
+   "text": "see,",
+   "startMs": 105995,
+   "endMs": 106363
+  },
+  {
+   "text": "as",
+   "startMs": 106363,
+   "endMs": 106585
+  },
+  {
+   "text": "I",
+   "startMs": 106585,
+   "endMs": 106732
+  },
+  {
+   "text": "wan",
+   "startMs": 106732,
+   "endMs": 107027
+  },
+  {
+   "text": "answer,",
+   "startMs": 107027,
+   "endMs": 107617
+  },
+  {
+   "text": "something",
+   "startMs": 107617,
+   "endMs": 108354
+  },
+  {
+   "text": "happen",
+   "startMs": 108354,
+   "endMs": 108870
+  },
+  {
+   "text": "wey",
+   "startMs": 108870,
+   "endMs": 109164
+  },
+  {
+   "text": "I",
+   "startMs": 109164,
+   "endMs": 109312
+  },
+  {
+   "text": "no",
+   "startMs": 109312,
+   "endMs": 109533
+  },
+  {
+   "text": "plan",
+   "startMs": 109533,
+   "endMs": 109902
+  },
+  {
+   "text": "for.",
+   "startMs": 109902,
+   "endMs": 110270
+  },
+  {
+   "text": "Light",
+   "startMs": 110270,
+   "endMs": 110712
+  },
+  {
+   "text": "come.",
+   "startMs": 110712,
+   "endMs": 111155
+  },
+  {
+   "text": "NEPA!",
+   "startMs": 111155,
+   "endMs": 111597
+  },
+  {
+   "text": "For",
+   "startMs": 111597,
+   "endMs": 111892
+  },
+  {
+   "text": "the",
+   "startMs": 111892,
+   "endMs": 112187
+  },
+  {
+   "text": "first",
+   "startMs": 112187,
+   "endMs": 112629
+  },
+  {
+   "text": "time",
+   "startMs": 112629,
+   "endMs": 112998
+  },
+  {
+   "text": "since",
+   "startMs": 112998,
+   "endMs": 113440
+  },
+  {
+   "text": "Monday!",
+   "startMs": 113440,
+   "endMs": 114030
+  },
+  {
+   "text": "I",
+   "startMs": 114030,
+   "endMs": 114177
+  },
+  {
+   "text": "plug",
+   "startMs": 114177,
+   "endMs": 114546
+  },
+  {
+   "text": "charger.",
+   "startMs": 114546,
+   "endMs": 115209
+  },
+  {
+   "text": "I",
+   "startMs": 115209,
+   "endMs": 115356
+  },
+  {
+   "text": "smile",
+   "startMs": 115356,
+   "endMs": 115799
+  },
+  {
+   "text": "like",
+   "startMs": 115799,
+   "endMs": 116167
+  },
+  {
+   "text": "person",
+   "startMs": 116167,
+   "endMs": 116683
+  },
+  {
+   "text": "wey",
+   "startMs": 116683,
+   "endMs": 116978
+  },
+  {
+   "text": "win",
+   "startMs": 116978,
+   "endMs": 117273
+  },
+  {
+   "text": "election.",
+   "startMs": 117273,
+   "endMs": 118010,
+   "endBeat": true
+  },
+  {
+   "text": "The",
+   "startMs": 118260,
+   "endMs": 118559
+  },
+  {
+   "text": "client",
+   "startMs": 118559,
+   "endMs": 119081
+  },
+  {
+   "text": "smile",
+   "startMs": 119081,
+   "endMs": 119529
+  },
+  {
+   "text": "too.",
+   "startMs": 119529,
+   "endMs": 119903
+  },
+  {
+   "text": "E",
+   "startMs": 119903,
+   "endMs": 120052
+  },
+  {
+   "text": "say,",
+   "startMs": 120052,
+   "endMs": 120426
+  },
+  {
+   "text": "You",
+   "startMs": 120426,
+   "endMs": 120724
+  },
+  {
+   "text": "are",
+   "startMs": 120724,
+   "endMs": 121023
+  },
+  {
+   "text": "hired.",
+   "startMs": 121023,
+   "endMs": 121546
+  },
+  {
+   "text": "One",
+   "startMs": 121546,
+   "endMs": 121844
+  },
+  {
+   "text": "small",
+   "startMs": 121844,
+   "endMs": 122293
+  },
+  {
+   "text": "thing.",
+   "startMs": 122293,
+   "endMs": 122815
+  },
+  {
+   "text": "We",
+   "startMs": 122815,
+   "endMs": 123039
+  },
+  {
+   "text": "like",
+   "startMs": 123039,
+   "endMs": 123413
+  },
+  {
+   "text": "your",
+   "startMs": 123413,
+   "endMs": 123786
+  },
+  {
+   "text": "energy,",
+   "startMs": 123786,
+   "endMs": 124383
+  },
+  {
+   "text": "but",
+   "startMs": 124383,
+   "endMs": 124682
+  },
+  {
+   "text": "your",
+   "startMs": 124682,
+   "endMs": 125056
+  },
+  {
+   "text": "video",
+   "startMs": 125056,
+   "endMs": 125504
+  },
+  {
+   "text": "too",
+   "startMs": 125504,
+   "endMs": 125802
+  },
+  {
+   "text": "dark.",
+   "startMs": 125802,
+   "endMs": 126250
+  },
+  {
+   "text": "Next",
+   "startMs": 126250,
+   "endMs": 126624
+  },
+  {
+   "text": "time,",
+   "startMs": 126624,
+   "endMs": 127072
+  },
+  {
+   "text": "abeg,",
+   "startMs": 127072,
+   "endMs": 127520
+  },
+  {
+   "text": "on",
+   "startMs": 127520,
+   "endMs": 127744
+  },
+  {
+   "text": "your",
+   "startMs": 127744,
+   "endMs": 128117
+  },
+  {
+   "text": "light.",
+   "startMs": 128117,
+   "endMs": 128640,
+   "endBeat": true
+  },
+  {
+   "text": "I",
+   "startMs": 128890,
+   "endMs": 129078
+  },
+  {
+   "text": "say",
+   "startMs": 129078,
+   "endMs": 129455
+  },
+  {
+   "text": "yes",
+   "startMs": 129455,
+   "endMs": 129831
+  },
+  {
+   "text": "sir.",
+   "startMs": 129831,
+   "endMs": 130302
+  },
+  {
+   "text": "I",
+   "startMs": 130302,
+   "endMs": 130491
+  },
+  {
+   "text": "end",
+   "startMs": 130491,
+   "endMs": 130867
+  },
+  {
+   "text": "the",
+   "startMs": 130867,
+   "endMs": 131244
+  },
+  {
+   "text": "call.",
+   "startMs": 131244,
+   "endMs": 131809
+  },
+  {
+   "text": "I",
+   "startMs": 131809,
+   "endMs": 131997
+  },
+  {
+   "text": "stand",
+   "startMs": 131997,
+   "endMs": 132562
+  },
+  {
+   "text": "up",
+   "startMs": 132562,
+   "endMs": 132844
+  },
+  {
+   "text": "make",
+   "startMs": 132844,
+   "endMs": 133315
+  },
+  {
+   "text": "I",
+   "startMs": 133315,
+   "endMs": 133503
+  },
+  {
+   "text": "on",
+   "startMs": 133503,
+   "endMs": 133786
+  },
+  {
+   "text": "the",
+   "startMs": 133786,
+   "endMs": 134162
+  },
+  {
+   "text": "bulb.",
+   "startMs": 134162,
+   "endMs": 134727
+  },
+  {
+   "text": "Na",
+   "startMs": 134727,
+   "endMs": 135010
+  },
+  {
+   "text": "that",
+   "startMs": 135010,
+   "endMs": 135480
+  },
+  {
+   "text": "time",
+   "startMs": 135480,
+   "endMs": 135951
+  },
+  {
+   "text": "NEPA",
+   "startMs": 135951,
+   "endMs": 136422
+  },
+  {
+   "text": "take",
+   "startMs": 136422,
+   "endMs": 136893
+  },
+  {
+   "text": "am",
+   "startMs": 136893,
+   "endMs": 137175
+  },
+  {
+   "text": "back.",
+   "startMs": 137175,
+   "endMs": 137740,
+   "endBeat": true
+  }
+ ]
+}

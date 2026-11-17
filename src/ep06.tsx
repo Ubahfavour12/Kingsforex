@@ -26,7 +26,6 @@ const parFood: Shot = { pos: [PARLOUR_X + 0.3, 2.0, 5.4], look: [PARLOUR_X + 0.3
 
 const above = (at: V3, dx = 0, y = 2.45): V3 => [at[0] + dx, at[1] + y, at[2] + 0.2];
 const overBed: V3 = [BED_X - 0.3, 2.8, -0.2];
-const lowBed: V3 = [BED_X - 0.3, 2.3, -0.1];
 
 const SEGMENTS: Segment[] = [
   // ===== Act 1: rich on Friday =====
@@ -47,9 +46,9 @@ const SEGMENTS: Segment[] = [
     b: 2, shot: bedDev, night: true,
     cast: { dev: { ...devBed, face: "happy", talk: true } },
     gags: [
-      { text: "RENT OK", at: overBed, w: 1.2, p: [0.25, 1] },
-      { text: "GENERATOR OK", at: [BED_X - 0.3, 3.25, -0.2], w: 1.5, fill: YELLOW, p: [0.5, 1] },
-      { text: "SHAWARMA OK", at: lowBed, w: 1.5, fill: GREEN, color: "white", p: [0.75, 1] },
+      { text: "RENT OK", at: overBed, w: 1.2, p: [0.2, 0.47] },
+      { text: "GENERATOR OK", at: overBed, w: 1.5, fill: YELLOW, p: [0.47, 0.73] },
+      { text: "SHAWARMA OK", at: overBed, w: 1.5, fill: GREEN, color: "white", p: [0.73, 1] },
     ],
   },
   {
