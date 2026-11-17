@@ -3,7 +3,7 @@
 import type { ReactNode } from "react";
 
 export type Expression = "neutral" | "happy" | "shocked" | "vexed" | "talking";
-export type Who = "dev" | "mama" | "chinedu" | "iyabose" | "client" | "landlord" | "chairman" | "cousin" | "aboki";
+export type Who = "dev" | "mama" | "chinedu" | "iyabose" | "client" | "landlord" | "chairman" | "cousin" | "aboki" | "papa";
 
 const INK = "#1b1410";
 const ink = { stroke: INK, strokeWidth: 3.5, strokeLinejoin: "round", strokeLinecap: "round" } as const;
@@ -30,6 +30,7 @@ const LOOKS: Record<Who, Look> = {
   client: { skin: "#8f5a38", shade: "#734428", top: "#23232b", bottom: "#23232b", outfit: "suit", hair: "bald", tie: "#d62f2f" },
   chairman: { skin: "#a66c45", shade: "#865230", top: "#6f2dbd", bottom: "#6f2dbd", outfit: "suit", hair: "lowcut", tie: "#ffd23f", shades: true },
   aboki: { skin: "#7d4f30", shade: "#633c22", top: "#7fb3e0", bottom: "#ffffff", outfit: "agbada", hair: "fila" },
+  papa: { skin: "#a36a43", shade: "#83512f", top: "#3b6fb0", bottom: "#ffd23f", outfit: "agbada", hair: "lowcut" },
   landlord: { skin: "#94603d", shade: "#764a2c", top: "#e9e1c9", bottom: "#4a6b3a", outfit: "agbada", hair: "fila", beard: true },
 };
 

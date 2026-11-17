@@ -48,8 +48,17 @@ const Bedroom = () => (
   </group>
 );
 
-const Door = () => (
+const Door = ({ car }: { car: boolean }) => (
   <group position={[DOOR_X, 0, 0]}>
+    {car && (
+      // a shiny visitor's car parked in the compound
+      <group position={[-2.3, 0, 1.2]}>
+        <Box size={[2.6, 0.6, 1.2]} position={[0, 0.5, 0]} color="#c9ced6" />
+        <Box size={[1.4, 0.5, 1.1]} position={[0.1, 1.05, 0]} color="#9fd4ff" />
+        <Box size={[0.5, 0.5, 1.25]} position={[-0.8, 0.25, 0]} color="#1b1410" />
+        <Box size={[0.5, 0.5, 1.25]} position={[0.8, 0.25, 0]} color="#1b1410" />
+      </group>
+    )}
     <Box size={[5.4, 4.4, 0.3]} position={[0, 2.2, -1.4]} color="#f2c7a0" />
     <Box size={[6, 0.25, 1.2]} position={[0, 4.5, -1.1]} color="#8f3b2e" />
     <Box size={[1.15, 2.3, 0.12]} position={[0.5, 1.15, -1.2]} color="#2f6f8f" />
@@ -238,7 +247,7 @@ export const Sets = ({ flags }: { flags: string[] }) => (
       <meshStandardMaterial color="#e2b877" roughness={1} />
     </mesh>
     <Bedroom />
-    <Door />
+    <Door car={flags.includes("car")} />
     <Parlour food={flags.includes("food")} />
     <Church />
     <Stage screen={flags.includes("screen-red") ? "#d62f2f" : "#7fd0ff"} />

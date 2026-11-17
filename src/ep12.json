@@ -1,0 +1,1871 @@
+{
+ "beats": [
+  {
+   "startMs": 0,
+   "endMs": 7690
+  },
+  {
+   "startMs": 7940,
+   "endMs": 18710
+  },
+  {
+   "startMs": 18960,
+   "endMs": 28190
+  },
+  {
+   "startMs": 28440,
+   "endMs": 33820
+  },
+  {
+   "startMs": 34070,
+   "endMs": 44450
+  },
+  {
+   "startMs": 44700,
+   "endMs": 54700
+  },
+  {
+   "startMs": 54950,
+   "endMs": 65720
+  },
+  {
+   "startMs": 65970,
+   "endMs": 77120
+  },
+  {
+   "startMs": 77370,
+   "endMs": 83910
+  },
+  {
+   "startMs": 84160,
+   "endMs": 96850
+  },
+  {
+   "startMs": 97100,
+   "endMs": 107100
+  },
+  {
+   "startMs": 107350,
+   "endMs": 119270
+  },
+  {
+   "startMs": 119520,
+   "endMs": 129900
+  },
+  {
+   "startMs": 130150,
+   "endMs": 135530
+  },
+  {
+   "startMs": 135780,
+   "endMs": 141160
+  }
+ ],
+ "captions": [
+  {
+   "text": "My",
+   "startMs": 0,
+   "endMs": 235
+  },
+  {
+   "text": "cousin",
+   "startMs": 235,
+   "endMs": 785
+  },
+  {
+   "text": "ask",
+   "startMs": 785,
+   "endMs": 1099
+  },
+  {
+   "text": "me",
+   "startMs": 1099,
+   "endMs": 1334
+  },
+  {
+   "text": "for",
+   "startMs": 1334,
+   "endMs": 1648
+  },
+  {
+   "text": "small",
+   "startMs": 1648,
+   "endMs": 2119
+  },
+  {
+   "text": "favour.",
+   "startMs": 2119,
+   "endMs": 2746
+  },
+  {
+   "text": "The",
+   "startMs": 2746,
+   "endMs": 3060
+  },
+  {
+   "text": "small",
+   "startMs": 3060,
+   "endMs": 3531
+  },
+  {
+   "text": "favour",
+   "startMs": 3531,
+   "endMs": 4080
+  },
+  {
+   "text": "take",
+   "startMs": 4080,
+   "endMs": 4473
+  },
+  {
+   "text": "four",
+   "startMs": 4473,
+   "endMs": 4865
+  },
+  {
+   "text": "months,",
+   "startMs": 4865,
+   "endMs": 5493
+  },
+  {
+   "text": "and",
+   "startMs": 5493,
+   "endMs": 5807
+  },
+  {
+   "text": "e",
+   "startMs": 5807,
+   "endMs": 5964
+  },
+  {
+   "text": "still",
+   "startMs": 5964,
+   "endMs": 6434
+  },
+  {
+   "text": "dey",
+   "startMs": 6434,
+   "endMs": 6748
+  },
+  {
+   "text": "vex",
+   "startMs": 6748,
+   "endMs": 7062
+  },
+  {
+   "text": "for",
+   "startMs": 7062,
+   "endMs": 7376
+  },
+  {
+   "text": "me.",
+   "startMs": 7376,
+   "endMs": 7690,
+   "endBeat": true
+  },
+  {
+   "text": "E",
+   "startMs": 7940,
+   "endMs": 8084
+  },
+  {
+   "text": "call",
+   "startMs": 8084,
+   "endMs": 8443
+  },
+  {
+   "text": "me",
+   "startMs": 8443,
+   "endMs": 8658
+  },
+  {
+   "text": "Sunday",
+   "startMs": 8658,
+   "endMs": 9161
+  },
+  {
+   "text": "evening.",
+   "startMs": 9161,
+   "endMs": 9807
+  },
+  {
+   "text": "Sweet",
+   "startMs": 9807,
+   "endMs": 10238
+  },
+  {
+   "text": "voice.",
+   "startMs": 10238,
+   "endMs": 10740
+  },
+  {
+   "text": "Bros,",
+   "startMs": 10740,
+   "endMs": 11171
+  },
+  {
+   "text": "you",
+   "startMs": 11171,
+   "endMs": 11458
+  },
+  {
+   "text": "know",
+   "startMs": 11458,
+   "endMs": 11817
+  },
+  {
+   "text": "say",
+   "startMs": 11817,
+   "endMs": 12104
+  },
+  {
+   "text": "you",
+   "startMs": 12104,
+   "endMs": 12392
+  },
+  {
+   "text": "be",
+   "startMs": 12392,
+   "endMs": 12607
+  },
+  {
+   "text": "the",
+   "startMs": 12607,
+   "endMs": 12894
+  },
+  {
+   "text": "only",
+   "startMs": 12894,
+   "endMs": 13253
+  },
+  {
+   "text": "tech",
+   "startMs": 13253,
+   "endMs": 13612
+  },
+  {
+   "text": "person",
+   "startMs": 13612,
+   "endMs": 14115
+  },
+  {
+   "text": "for",
+   "startMs": 14115,
+   "endMs": 14402
+  },
+  {
+   "text": "this",
+   "startMs": 14402,
+   "endMs": 14761
+  },
+  {
+   "text": "family.",
+   "startMs": 14761,
+   "endMs": 15335
+  },
+  {
+   "text": "When",
+   "startMs": 15335,
+   "endMs": 15694
+  },
+  {
+   "text": "person",
+   "startMs": 15694,
+   "endMs": 16197
+  },
+  {
+   "text": "start",
+   "startMs": 16197,
+   "endMs": 16628
+  },
+  {
+   "text": "like",
+   "startMs": 16628,
+   "endMs": 16987
+  },
+  {
+   "text": "that,",
+   "startMs": 16987,
+   "endMs": 17418
+  },
+  {
+   "text": "hold",
+   "startMs": 17418,
+   "endMs": 17777
+  },
+  {
+   "text": "your",
+   "startMs": 17777,
+   "endMs": 18136
+  },
+  {
+   "text": "wallet.",
+   "startMs": 18136,
+   "endMs": 18710,
+   "endBeat": true
+  },
+  {
+   "text": "E",
+   "startMs": 18960,
+   "endMs": 19102
+  },
+  {
+   "text": "say",
+   "startMs": 19102,
+   "endMs": 19386
+  },
+  {
+   "text": "e",
+   "startMs": 19386,
+   "endMs": 19528
+  },
+  {
+   "text": "wan",
+   "startMs": 19528,
+   "endMs": 19812
+  },
+  {
+   "text": "start",
+   "startMs": 19812,
+   "endMs": 20238
+  },
+  {
+   "text": "business.",
+   "startMs": 20238,
+   "endMs": 20948
+  },
+  {
+   "text": "E",
+   "startMs": 20948,
+   "endMs": 21090
+  },
+  {
+   "text": "dey",
+   "startMs": 21090,
+   "endMs": 21374
+  },
+  {
+   "text": "sell",
+   "startMs": 21374,
+   "endMs": 21729
+  },
+  {
+   "text": "shoe.",
+   "startMs": 21729,
+   "endMs": 22155
+  },
+  {
+   "text": "E",
+   "startMs": 22155,
+   "endMs": 22297
+  },
+  {
+   "text": "need",
+   "startMs": 22297,
+   "endMs": 22652
+  },
+  {
+   "text": "website.",
+   "startMs": 22652,
+   "endMs": 23291
+  },
+  {
+   "text": "Simple",
+   "startMs": 23291,
+   "endMs": 23788
+  },
+  {
+   "text": "one.",
+   "startMs": 23788,
+   "endMs": 24143
+  },
+  {
+   "text": "Just",
+   "startMs": 24143,
+   "endMs": 24498
+  },
+  {
+   "text": "small",
+   "startMs": 24498,
+   "endMs": 24924
+  },
+  {
+   "text": "thing.",
+   "startMs": 24924,
+   "endMs": 25421
+  },
+  {
+   "text": "Like",
+   "startMs": 25421,
+   "endMs": 25776
+  },
+  {
+   "text": "Amazon.",
+   "startMs": 25776,
+   "endMs": 26344
+  },
+  {
+   "text": "Like",
+   "startMs": 26344,
+   "endMs": 26699
+  },
+  {
+   "text": "Amazon.",
+   "startMs": 26699,
+   "endMs": 27267
+  },
+  {
+   "text": "Small",
+   "startMs": 27267,
+   "endMs": 27693
+  },
+  {
+   "text": "thing.",
+   "startMs": 27693,
+   "endMs": 28190,
+   "endBeat": true
+  },
+  {
+   "text": "I",
+   "startMs": 28440,
+   "endMs": 28601
+  },
+  {
+   "text": "say",
+   "startMs": 28601,
+   "endMs": 28922
+  },
+  {
+   "text": "okay,",
+   "startMs": 28922,
+   "endMs": 29404
+  },
+  {
+   "text": "how",
+   "startMs": 29404,
+   "endMs": 29725
+  },
+  {
+   "text": "much",
+   "startMs": 29725,
+   "endMs": 30126
+  },
+  {
+   "text": "you",
+   "startMs": 30126,
+   "endMs": 30447
+  },
+  {
+   "text": "budget?",
+   "startMs": 30447,
+   "endMs": 31090
+  },
+  {
+   "text": "E",
+   "startMs": 31090,
+   "endMs": 31250
+  },
+  {
+   "text": "laugh.",
+   "startMs": 31250,
+   "endMs": 31813
+  },
+  {
+   "text": "Budget",
+   "startMs": 31813,
+   "endMs": 32375
+  },
+  {
+   "text": "ke?",
+   "startMs": 32375,
+   "endMs": 32696
+  },
+  {
+   "text": "We",
+   "startMs": 32696,
+   "endMs": 32937
+  },
+  {
+   "text": "be",
+   "startMs": 32937,
+   "endMs": 33178
+  },
+  {
+   "text": "family.",
+   "startMs": 33178,
+   "endMs": 33820,
+   "endBeat": true
+  },
+  {
+   "text": "I",
+   "startMs": 34070,
+   "endMs": 34240
+  },
+  {
+   "text": "for",
+   "startMs": 34240,
+   "endMs": 34580
+  },
+  {
+   "text": "refuse.",
+   "startMs": 34580,
+   "endMs": 35261
+  },
+  {
+   "text": "But",
+   "startMs": 35261,
+   "endMs": 35601
+  },
+  {
+   "text": "e",
+   "startMs": 35601,
+   "endMs": 35772
+  },
+  {
+   "text": "don",
+   "startMs": 35772,
+   "endMs": 36112
+  },
+  {
+   "text": "already",
+   "startMs": 36112,
+   "endMs": 36793
+  },
+  {
+   "text": "call",
+   "startMs": 36793,
+   "endMs": 37218
+  },
+  {
+   "text": "my",
+   "startMs": 37218,
+   "endMs": 37473
+  },
+  {
+   "text": "mama.",
+   "startMs": 37473,
+   "endMs": 37984
+  },
+  {
+   "text": "And",
+   "startMs": 37984,
+   "endMs": 38324
+  },
+  {
+   "text": "my",
+   "startMs": 38324,
+   "endMs": 38579
+  },
+  {
+   "text": "mama",
+   "startMs": 38579,
+   "endMs": 39005
+  },
+  {
+   "text": "call",
+   "startMs": 39005,
+   "endMs": 39430
+  },
+  {
+   "text": "me.",
+   "startMs": 39430,
+   "endMs": 39770
+  },
+  {
+   "text": "Your",
+   "startMs": 39770,
+   "endMs": 40196
+  },
+  {
+   "text": "own",
+   "startMs": 40196,
+   "endMs": 40536
+  },
+  {
+   "text": "blood.",
+   "startMs": 40536,
+   "endMs": 41132
+  },
+  {
+   "text": "You",
+   "startMs": 41132,
+   "endMs": 41472
+  },
+  {
+   "text": "go",
+   "startMs": 41472,
+   "endMs": 41727
+  },
+  {
+   "text": "charge",
+   "startMs": 41727,
+   "endMs": 42323
+  },
+  {
+   "text": "am?",
+   "startMs": 42323,
+   "endMs": 42663
+  },
+  {
+   "text": "Na",
+   "startMs": 42663,
+   "endMs": 42919
+  },
+  {
+   "text": "so",
+   "startMs": 42919,
+   "endMs": 43174
+  },
+  {
+   "text": "dem",
+   "startMs": 43174,
+   "endMs": 43514
+  },
+  {
+   "text": "train",
+   "startMs": 43514,
+   "endMs": 44025
+  },
+  {
+   "text": "you?",
+   "startMs": 44025,
+   "endMs": 44450,
+   "endBeat": true
+  },
+  {
+   "text": "So",
+   "startMs": 44700,
+   "endMs": 44968
+  },
+  {
+   "text": "I",
+   "startMs": 44968,
+   "endMs": 45146
+  },
+  {
+   "text": "start.",
+   "startMs": 45146,
+   "endMs": 45771
+  },
+  {
+   "text": "Free.",
+   "startMs": 45771,
+   "endMs": 46307
+  },
+  {
+   "text": "Week",
+   "startMs": 46307,
+   "endMs": 46754
+  },
+  {
+   "text": "one,",
+   "startMs": 46754,
+   "endMs": 47200
+  },
+  {
+   "text": "I",
+   "startMs": 47200,
+   "endMs": 47379
+  },
+  {
+   "text": "show",
+   "startMs": 47379,
+   "endMs": 47825
+  },
+  {
+   "text": "am",
+   "startMs": 47825,
+   "endMs": 48093
+  },
+  {
+   "text": "design.",
+   "startMs": 48093,
+   "endMs": 48807
+  },
+  {
+   "text": "E",
+   "startMs": 48807,
+   "endMs": 48986
+  },
+  {
+   "text": "say",
+   "startMs": 48986,
+   "endMs": 49343
+  },
+  {
+   "text": "the",
+   "startMs": 49343,
+   "endMs": 49700
+  },
+  {
+   "text": "blue",
+   "startMs": 49700,
+   "endMs": 50146
+  },
+  {
+   "text": "no",
+   "startMs": 50146,
+   "endMs": 50414
+  },
+  {
+   "text": "blue",
+   "startMs": 50414,
+   "endMs": 50861
+  },
+  {
+   "text": "enough.",
+   "startMs": 50861,
+   "endMs": 51575
+  },
+  {
+   "text": "I",
+   "startMs": 51575,
+   "endMs": 51754
+  },
+  {
+   "text": "change",
+   "startMs": 51754,
+   "endMs": 52379
+  },
+  {
+   "text": "am.",
+   "startMs": 52379,
+   "endMs": 52736
+  },
+  {
+   "text": "E",
+   "startMs": 52736,
+   "endMs": 52914
+  },
+  {
+   "text": "say",
+   "startMs": 52914,
+   "endMs": 53271
+  },
+  {
+   "text": "now",
+   "startMs": 53271,
+   "endMs": 53629
+  },
+  {
+   "text": "e",
+   "startMs": 53629,
+   "endMs": 53807
+  },
+  {
+   "text": "too",
+   "startMs": 53807,
+   "endMs": 54164
+  },
+  {
+   "text": "blue.",
+   "startMs": 54164,
+   "endMs": 54700,
+   "endBeat": true
+  },
+  {
+   "text": "Week",
+   "startMs": 54950,
+   "endMs": 55364
+  },
+  {
+   "text": "three,",
+   "startMs": 55364,
+   "endMs": 55944
+  },
+  {
+   "text": "e",
+   "startMs": 55944,
+   "endMs": 56110
+  },
+  {
+   "text": "say",
+   "startMs": 56110,
+   "endMs": 56441
+  },
+  {
+   "text": "make",
+   "startMs": 56441,
+   "endMs": 56855
+  },
+  {
+   "text": "the",
+   "startMs": 56855,
+   "endMs": 57187
+  },
+  {
+   "text": "logo",
+   "startMs": 57187,
+   "endMs": 57601
+  },
+  {
+   "text": "big.",
+   "startMs": 57601,
+   "endMs": 58015
+  },
+  {
+   "text": "Week",
+   "startMs": 58015,
+   "endMs": 58430
+  },
+  {
+   "text": "four,",
+   "startMs": 58430,
+   "endMs": 58927
+  },
+  {
+   "text": "bigger.",
+   "startMs": 58927,
+   "endMs": 59589
+  },
+  {
+   "text": "By",
+   "startMs": 59589,
+   "endMs": 59838
+  },
+  {
+   "text": "week",
+   "startMs": 59838,
+   "endMs": 60252
+  },
+  {
+   "text": "six,",
+   "startMs": 60252,
+   "endMs": 60666
+  },
+  {
+   "text": "the",
+   "startMs": 60666,
+   "endMs": 60998
+  },
+  {
+   "text": "logo",
+   "startMs": 60998,
+   "endMs": 61412
+  },
+  {
+   "text": "don",
+   "startMs": 61412,
+   "endMs": 61743
+  },
+  {
+   "text": "cover",
+   "startMs": 61743,
+   "endMs": 62240
+  },
+  {
+   "text": "the",
+   "startMs": 62240,
+   "endMs": 62572
+  },
+  {
+   "text": "shoe.",
+   "startMs": 62572,
+   "endMs": 63069
+  },
+  {
+   "text": "E",
+   "startMs": 63069,
+   "endMs": 63235
+  },
+  {
+   "text": "say,",
+   "startMs": 63235,
+   "endMs": 63649
+  },
+  {
+   "text": "Yes!",
+   "startMs": 63649,
+   "endMs": 64063
+  },
+  {
+   "text": "Now",
+   "startMs": 64063,
+   "endMs": 64394
+  },
+  {
+   "text": "you",
+   "startMs": 64394,
+   "endMs": 64726
+  },
+  {
+   "text": "dey",
+   "startMs": 64726,
+   "endMs": 65057
+  },
+  {
+   "text": "get",
+   "startMs": 65057,
+   "endMs": 65389
+  },
+  {
+   "text": "am.",
+   "startMs": 65389,
+   "endMs": 65720,
+   "endBeat": true
+  },
+  {
+   "text": "E",
+   "startMs": 65970,
+   "endMs": 66135
+  },
+  {
+   "text": "dey",
+   "startMs": 66135,
+   "endMs": 66466
+  },
+  {
+   "text": "call",
+   "startMs": 66466,
+   "endMs": 66879
+  },
+  {
+   "text": "me",
+   "startMs": 66879,
+   "endMs": 67126
+  },
+  {
+   "text": "midnight.",
+   "startMs": 67126,
+   "endMs": 67952
+  },
+  {
+   "text": "Bros,",
+   "startMs": 67952,
+   "endMs": 68448
+  },
+  {
+   "text": "I",
+   "startMs": 68448,
+   "endMs": 68613
+  },
+  {
+   "text": "get",
+   "startMs": 68613,
+   "endMs": 68943
+  },
+  {
+   "text": "idea.",
+   "startMs": 68943,
+   "endMs": 69439
+  },
+  {
+   "text": "Make",
+   "startMs": 69439,
+   "endMs": 69852
+  },
+  {
+   "text": "the",
+   "startMs": 69852,
+   "endMs": 70182
+  },
+  {
+   "text": "website",
+   "startMs": 70182,
+   "endMs": 70843
+  },
+  {
+   "text": "dey",
+   "startMs": 70843,
+   "endMs": 71173
+  },
+  {
+   "text": "play",
+   "startMs": 71173,
+   "endMs": 71586
+  },
+  {
+   "text": "music",
+   "startMs": 71586,
+   "endMs": 72082
+  },
+  {
+   "text": "when",
+   "startMs": 72082,
+   "endMs": 72495
+  },
+  {
+   "text": "person",
+   "startMs": 72495,
+   "endMs": 73073
+  },
+  {
+   "text": "open",
+   "startMs": 73073,
+   "endMs": 73486
+  },
+  {
+   "text": "am.",
+   "startMs": 73486,
+   "endMs": 73816
+  },
+  {
+   "text": "I",
+   "startMs": 73816,
+   "endMs": 73981
+  },
+  {
+   "text": "say",
+   "startMs": 73981,
+   "endMs": 74312
+  },
+  {
+   "text": "no.",
+   "startMs": 74312,
+   "endMs": 74642
+  },
+  {
+   "text": "E",
+   "startMs": 74642,
+   "endMs": 74807
+  },
+  {
+   "text": "report",
+   "startMs": 74807,
+   "endMs": 75386
+  },
+  {
+   "text": "me",
+   "startMs": 75386,
+   "endMs": 75633
+  },
+  {
+   "text": "to",
+   "startMs": 75633,
+   "endMs": 75881
+  },
+  {
+   "text": "my",
+   "startMs": 75881,
+   "endMs": 76129
+  },
+  {
+   "text": "mama",
+   "startMs": 76129,
+   "endMs": 76542
+  },
+  {
+   "text": "again.",
+   "startMs": 76542,
+   "endMs": 77120,
+   "endBeat": true
+  },
+  {
+   "text": "Then",
+   "startMs": 77370,
+   "endMs": 77711
+  },
+  {
+   "text": "e",
+   "startMs": 77711,
+   "endMs": 77847
+  },
+  {
+   "text": "send",
+   "startMs": 77847,
+   "endMs": 78188
+  },
+  {
+   "text": "me",
+   "startMs": 78188,
+   "endMs": 78392
+  },
+  {
+   "text": "voice",
+   "startMs": 78392,
+   "endMs": 78801
+  },
+  {
+   "text": "note,",
+   "startMs": 78801,
+   "endMs": 79209
+  },
+  {
+   "text": "four",
+   "startMs": 79209,
+   "endMs": 79550
+  },
+  {
+   "text": "minutes,",
+   "startMs": 79550,
+   "endMs": 80163
+  },
+  {
+   "text": "to",
+   "startMs": 80163,
+   "endMs": 80368
+  },
+  {
+   "text": "explain",
+   "startMs": 80368,
+   "endMs": 80912
+  },
+  {
+   "text": "say",
+   "startMs": 80912,
+   "endMs": 81185
+  },
+  {
+   "text": "the",
+   "startMs": 81185,
+   "endMs": 81458
+  },
+  {
+   "text": "button",
+   "startMs": 81458,
+   "endMs": 81934
+  },
+  {
+   "text": "suppose",
+   "startMs": 81934,
+   "endMs": 82479
+  },
+  {
+   "text": "feel",
+   "startMs": 82479,
+   "endMs": 82820
+  },
+  {
+   "text": "more",
+   "startMs": 82820,
+   "endMs": 83161
+  },
+  {
+   "text": "expensive.",
+   "startMs": 83161,
+   "endMs": 83910,
+   "endBeat": true
+  },
+  {
+   "text": "Month",
+   "startMs": 84160,
+   "endMs": 84613
+  },
+  {
+   "text": "four,",
+   "startMs": 84613,
+   "endMs": 85066
+  },
+  {
+   "text": "website",
+   "startMs": 85066,
+   "endMs": 85671
+  },
+  {
+   "text": "ready.",
+   "startMs": 85671,
+   "endMs": 86199
+  },
+  {
+   "text": "E",
+   "startMs": 86199,
+   "endMs": 86351
+  },
+  {
+   "text": "fine.",
+   "startMs": 86351,
+   "endMs": 86804
+  },
+  {
+   "text": "Honestly,",
+   "startMs": 86804,
+   "endMs": 87559
+  },
+  {
+   "text": "na",
+   "startMs": 87559,
+   "endMs": 87786
+  },
+  {
+   "text": "one",
+   "startMs": 87786,
+   "endMs": 88088
+  },
+  {
+   "text": "of",
+   "startMs": 88088,
+   "endMs": 88314
+  },
+  {
+   "text": "my",
+   "startMs": 88314,
+   "endMs": 88541
+  },
+  {
+   "text": "best",
+   "startMs": 88541,
+   "endMs": 88919
+  },
+  {
+   "text": "work.",
+   "startMs": 88919,
+   "endMs": 89372
+  },
+  {
+   "text": "I",
+   "startMs": 89372,
+   "endMs": 89523
+  },
+  {
+   "text": "tell",
+   "startMs": 89523,
+   "endMs": 89901
+  },
+  {
+   "text": "am",
+   "startMs": 89901,
+   "endMs": 90127
+  },
+  {
+   "text": "say",
+   "startMs": 90127,
+   "endMs": 90429
+  },
+  {
+   "text": "remain",
+   "startMs": 90429,
+   "endMs": 90958
+  },
+  {
+   "text": "just",
+   "startMs": 90958,
+   "endMs": 91336
+  },
+  {
+   "text": "the",
+   "startMs": 91336,
+   "endMs": 91638
+  },
+  {
+   "text": "hosting,",
+   "startMs": 91638,
+   "endMs": 92318
+  },
+  {
+   "text": "twenty",
+   "startMs": 92318,
+   "endMs": 92847
+  },
+  {
+   "text": "thousand",
+   "startMs": 92847,
+   "endMs": 93526
+  },
+  {
+   "text": "per",
+   "startMs": 93526,
+   "endMs": 93829
+  },
+  {
+   "text": "year,",
+   "startMs": 93829,
+   "endMs": 94282
+  },
+  {
+   "text": "make",
+   "startMs": 94282,
+   "endMs": 94659
+  },
+  {
+   "text": "e",
+   "startMs": 94659,
+   "endMs": 94811
+  },
+  {
+   "text": "pay",
+   "startMs": 94811,
+   "endMs": 95113
+  },
+  {
+   "text": "make",
+   "startMs": 95113,
+   "endMs": 95490
+  },
+  {
+   "text": "the",
+   "startMs": 95490,
+   "endMs": 95793
+  },
+  {
+   "text": "site",
+   "startMs": 95793,
+   "endMs": 96170
+  },
+  {
+   "text": "go",
+   "startMs": 96170,
+   "endMs": 96397
+  },
+  {
+   "text": "live.",
+   "startMs": 96397,
+   "endMs": 96850,
+   "endBeat": true
+  },
+  {
+   "text": "E",
+   "startMs": 97100,
+   "endMs": 97249
+  },
+  {
+   "text": "quiet.",
+   "startMs": 97249,
+   "endMs": 97772
+  },
+  {
+   "text": "Then",
+   "startMs": 97772,
+   "endMs": 98145
+  },
+  {
+   "text": "e",
+   "startMs": 98145,
+   "endMs": 98294
+  },
+  {
+   "text": "say,",
+   "startMs": 98294,
+   "endMs": 98667
+  },
+  {
+   "text": "So",
+   "startMs": 98667,
+   "endMs": 98891
+  },
+  {
+   "text": "after",
+   "startMs": 98891,
+   "endMs": 99339
+  },
+  {
+   "text": "everything,",
+   "startMs": 99339,
+   "endMs": 100234
+  },
+  {
+   "text": "you",
+   "startMs": 100234,
+   "endMs": 100533
+  },
+  {
+   "text": "still",
+   "startMs": 100533,
+   "endMs": 100981
+  },
+  {
+   "text": "wan",
+   "startMs": 100981,
+   "endMs": 101279
+  },
+  {
+   "text": "collect",
+   "startMs": 101279,
+   "endMs": 101876
+  },
+  {
+   "text": "money",
+   "startMs": 101876,
+   "endMs": 102324
+  },
+  {
+   "text": "from",
+   "startMs": 102324,
+   "endMs": 102697
+  },
+  {
+   "text": "me?",
+   "startMs": 102697,
+   "endMs": 102996
+  },
+  {
+   "text": "Twenty",
+   "startMs": 102996,
+   "endMs": 103518
+  },
+  {
+   "text": "thousand!",
+   "startMs": 103518,
+   "endMs": 104264
+  },
+  {
+   "text": "No",
+   "startMs": 104264,
+   "endMs": 104488
+  },
+  {
+   "text": "be",
+   "startMs": 104488,
+   "endMs": 104712
+  },
+  {
+   "text": "even",
+   "startMs": 104712,
+   "endMs": 105085
+  },
+  {
+   "text": "for",
+   "startMs": 105085,
+   "endMs": 105384
+  },
+  {
+   "text": "me,",
+   "startMs": 105384,
+   "endMs": 105682
+  },
+  {
+   "text": "na",
+   "startMs": 105682,
+   "endMs": 105906
+  },
+  {
+   "text": "for",
+   "startMs": 105906,
+   "endMs": 106204
+  },
+  {
+   "text": "the",
+   "startMs": 106204,
+   "endMs": 106503
+  },
+  {
+   "text": "server!",
+   "startMs": 106503,
+   "endMs": 107100,
+   "endBeat": true
+  },
+  {
+   "text": "E",
+   "startMs": 107350,
+   "endMs": 107507
+  },
+  {
+   "text": "vex.",
+   "startMs": 107507,
+   "endMs": 107899
+  },
+  {
+   "text": "E",
+   "startMs": 107899,
+   "endMs": 108056
+  },
+  {
+   "text": "tell",
+   "startMs": 108056,
+   "endMs": 108448
+  },
+  {
+   "text": "the",
+   "startMs": 108448,
+   "endMs": 108762
+  },
+  {
+   "text": "whole",
+   "startMs": 108762,
+   "endMs": 109232
+  },
+  {
+   "text": "family",
+   "startMs": 109232,
+   "endMs": 109781
+  },
+  {
+   "text": "say",
+   "startMs": 109781,
+   "endMs": 110095
+  },
+  {
+   "text": "I",
+   "startMs": 110095,
+   "endMs": 110252
+  },
+  {
+   "text": "do",
+   "startMs": 110252,
+   "endMs": 110487
+  },
+  {
+   "text": "am",
+   "startMs": 110487,
+   "endMs": 110722
+  },
+  {
+   "text": "strong",
+   "startMs": 110722,
+   "endMs": 111271
+  },
+  {
+   "text": "thing.",
+   "startMs": 111271,
+   "endMs": 111820
+  },
+  {
+   "text": "For",
+   "startMs": 111820,
+   "endMs": 112134
+  },
+  {
+   "text": "family",
+   "startMs": 112134,
+   "endMs": 112683
+  },
+  {
+   "text": "WhatsApp",
+   "startMs": 112683,
+   "endMs": 113388
+  },
+  {
+   "text": "group,",
+   "startMs": 113388,
+   "endMs": 113937
+  },
+  {
+   "text": "my",
+   "startMs": 113937,
+   "endMs": 114173
+  },
+  {
+   "text": "aunty",
+   "startMs": 114173,
+   "endMs": 114643
+  },
+  {
+   "text": "type,",
+   "startMs": 114643,
+   "endMs": 115114
+  },
+  {
+   "text": "Money",
+   "startMs": 115114,
+   "endMs": 115584
+  },
+  {
+   "text": "don",
+   "startMs": 115584,
+   "endMs": 115898
+  },
+  {
+   "text": "change",
+   "startMs": 115898,
+   "endMs": 116447
+  },
+  {
+   "text": "am.",
+   "startMs": 116447,
+   "endMs": 116761
+  },
+  {
+   "text": "Uncle",
+   "startMs": 116761,
+   "endMs": 117231
+  },
+  {
+   "text": "add,",
+   "startMs": 117231,
+   "endMs": 117623
+  },
+  {
+   "text": "Na",
+   "startMs": 117623,
+   "endMs": 117858
+  },
+  {
+   "text": "so",
+   "startMs": 117858,
+   "endMs": 118094
+  },
+  {
+   "text": "dem",
+   "startMs": 118094,
+   "endMs": 118407
+  },
+  {
+   "text": "dey",
+   "startMs": 118407,
+   "endMs": 118721
+  },
+  {
+   "text": "start.",
+   "startMs": 118721,
+   "endMs": 119270,
+   "endBeat": true
+  },
+  {
+   "text": "You",
+   "startMs": 119520,
+   "endMs": 119847
+  },
+  {
+   "text": "see,",
+   "startMs": 119847,
+   "endMs": 120256
+  },
+  {
+   "text": "I",
+   "startMs": 120256,
+   "endMs": 120419
+  },
+  {
+   "text": "no",
+   "startMs": 120419,
+   "endMs": 120664
+  },
+  {
+   "text": "fight.",
+   "startMs": 120664,
+   "endMs": 121236
+  },
+  {
+   "text": "I",
+   "startMs": 121236,
+   "endMs": 121400
+  },
+  {
+   "text": "just",
+   "startMs": 121400,
+   "endMs": 121809
+  },
+  {
+   "text": "do",
+   "startMs": 121809,
+   "endMs": 122054
+  },
+  {
+   "text": "one",
+   "startMs": 122054,
+   "endMs": 122381
+  },
+  {
+   "text": "thing.",
+   "startMs": 122381,
+   "endMs": 122953
+  },
+  {
+   "text": "I",
+   "startMs": 122953,
+   "endMs": 123116
+  },
+  {
+   "text": "pay",
+   "startMs": 123116,
+   "endMs": 123443
+  },
+  {
+   "text": "the",
+   "startMs": 123443,
+   "endMs": 123770
+  },
+  {
+   "text": "twenty",
+   "startMs": 123770,
+   "endMs": 124342
+  },
+  {
+   "text": "thousand",
+   "startMs": 124342,
+   "endMs": 125078
+  },
+  {
+   "text": "myself.",
+   "startMs": 125078,
+   "endMs": 125732
+  },
+  {
+   "text": "Site",
+   "startMs": 125732,
+   "endMs": 126140
+  },
+  {
+   "text": "go",
+   "startMs": 126140,
+   "endMs": 126386
+  },
+  {
+   "text": "live.",
+   "startMs": 126386,
+   "endMs": 126876
+  },
+  {
+   "text": "I",
+   "startMs": 126876,
+   "endMs": 127039
+  },
+  {
+   "text": "send",
+   "startMs": 127039,
+   "endMs": 127448
+  },
+  {
+   "text": "the",
+   "startMs": 127448,
+   "endMs": 127775
+  },
+  {
+   "text": "link",
+   "startMs": 127775,
+   "endMs": 128184
+  },
+  {
+   "text": "to",
+   "startMs": 128184,
+   "endMs": 128429
+  },
+  {
+   "text": "the",
+   "startMs": 128429,
+   "endMs": 128756
+  },
+  {
+   "text": "family",
+   "startMs": 128756,
+   "endMs": 129328
+  },
+  {
+   "text": "group.",
+   "startMs": 129328,
+   "endMs": 129900,
+   "endBeat": true
+  },
+  {
+   "text": "Everybody",
+   "startMs": 130150,
+   "endMs": 130761
+  },
+  {
+   "text": "open",
+   "startMs": 130761,
+   "endMs": 131067
+  },
+  {
+   "text": "am.",
+   "startMs": 131067,
+   "endMs": 131312
+  },
+  {
+   "text": "Everybody",
+   "startMs": 131312,
+   "endMs": 131923
+  },
+  {
+   "text": "praise",
+   "startMs": 131923,
+   "endMs": 132351
+  },
+  {
+   "text": "am.",
+   "startMs": 132351,
+   "endMs": 132595
+  },
+  {
+   "text": "My",
+   "startMs": 132595,
+   "endMs": 132779
+  },
+  {
+   "text": "cousin",
+   "startMs": 132779,
+   "endMs": 133207
+  },
+  {
+   "text": "begin",
+   "startMs": 133207,
+   "endMs": 133574
+  },
+  {
+   "text": "collect",
+   "startMs": 133574,
+   "endMs": 134063
+  },
+  {
+   "text": "orders",
+   "startMs": 134063,
+   "endMs": 134491
+  },
+  {
+   "text": "that",
+   "startMs": 134491,
+   "endMs": 134796
+  },
+  {
+   "text": "same",
+   "startMs": 134796,
+   "endMs": 135102
+  },
+  {
+   "text": "night.",
+   "startMs": 135102,
+   "endMs": 135530,
+   "endBeat": true
+  },
+  {
+   "text": "Next",
+   "startMs": 135780,
+   "endMs": 136134
+  },
+  {
+   "text": "morning",
+   "startMs": 136134,
+   "endMs": 136700
+  },
+  {
+   "text": "e",
+   "startMs": 136700,
+   "endMs": 136842
+  },
+  {
+   "text": "call",
+   "startMs": 136842,
+   "endMs": 137196
+  },
+  {
+   "text": "me.",
+   "startMs": 137196,
+   "endMs": 137479
+  },
+  {
+   "text": "Sweet",
+   "startMs": 137479,
+   "endMs": 137904
+  },
+  {
+   "text": "voice",
+   "startMs": 137904,
+   "endMs": 138328
+  },
+  {
+   "text": "again.",
+   "startMs": 138328,
+   "endMs": 138824
+  },
+  {
+   "text": "Bros.",
+   "startMs": 138824,
+   "endMs": 139249
+  },
+  {
+   "text": "Customers",
+   "startMs": 139249,
+   "endMs": 139957
+  },
+  {
+   "text": "dey",
+   "startMs": 139957,
+   "endMs": 140240
+  },
+  {
+   "text": "ask",
+   "startMs": 140240,
+   "endMs": 140523
+  },
+  {
+   "text": "for",
+   "startMs": 140523,
+   "endMs": 140806
+  },
+  {
+   "text": "app.",
+   "startMs": 140806,
+   "endMs": 141160,
+   "endBeat": true
+  }
+ ]
+}
