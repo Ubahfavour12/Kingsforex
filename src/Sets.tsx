@@ -7,6 +7,8 @@ export const BED_X = 0;
 export const DOOR_X = 9;
 export const PARLOUR_X = 18;
 export const CHURCH_X = 27;
+export const STAGE_X = 37;
+export const OFFICE_X = 48;
 
 // A box with a comic-book ink outline (a slightly larger black shell seen from inside).
 export const Box = ({ size, position, color, glow = 0 }: { size: V3; position: V3; color: string; glow?: number }) => (
@@ -93,15 +95,67 @@ const Church = () => (
   </group>
 );
 
+// Simple 3D crowd member: body + head, ink outlined.
+const Person = ({ at, color }: { at: V3; color: string }) => (
+  <group position={at}>
+    <Box size={[0.42, 0.8, 0.3]} position={[0, 0.4, 0]} color={color} />
+    <Box size={[0.32, 0.34, 0.3]} position={[0, 0.98, 0]} color="#a8724c" />
+  </group>
+);
+const CROWD_COLORS = ["#d6336c", "#2f8f6b", "#ffd23f", "#2f4a8f", "#f07c1e", "#7fd0ff", "#ffffff", "#6f2dbd"];
+
+// Launch party: canopy, stage, big screen, DJ booth and a crowd facing the stage.
+const Stage = ({ screen }: { screen: string }) => (
+  <group position={[STAGE_X, 0, 0]}>
+    <Box size={[6, 0.5, 2.6]} position={[0, 0.25, -1.4]} color="#3b3b46" />
+    <Box size={[3.2, 1.9, 0.12]} position={[0, 2.4, -2.6]} color={screen} glow={0.8} />
+    {/* striped canopy */}
+    {[-2.5, -1.5, -0.5, 0.5, 1.5, 2.5].map((x, i) => (
+      <Box key={x} size={[1, 0.15, 3.4]} position={[x, 4.0, -1.2]} color={i % 2 ? "#ffffff" : "#d62f2f"} />
+    ))}
+    <Box size={[0.12, 3.8, 0.12]} position={[-2.9, 1.9, 0.4]} color="#c9ced6" />
+    <Box size={[0.12, 3.8, 0.12]} position={[2.9, 1.9, 0.4]} color="#c9ced6" />
+    {/* DJ booth and speakers */}
+    <Box size={[1.2, 0.8, 0.6]} position={[2.1, 0.9, -1.6]} color="#20242c" />
+    <Box size={[0.6, 1.3, 0.5]} position={[-2.6, 1.15, -1.8]} color="#20242c" />
+    <Box size={[0.6, 1.3, 0.5]} position={[2.9, 1.15, -2.3]} color="#20242c" />
+    {/* small chops table */}
+    <Box size={[1.4, 0.7, 0.6]} position={[-3.9, 0.35, 0.6]} color="#ffffff" />
+    {/* crowd */}
+    {[0, 1, 2].flatMap((row) =>
+      [-2.4, -1.4, -0.4, 0.6, 1.6, 2.6].map((x, i) => (
+        <Person key={`${row}-${x}`} at={[x + row * 0.3, 0, 1.4 + row * 0.9]} color={CROWD_COLORS[(i + row * 3) % 8]} />
+      )),
+    )}
+  </group>
+);
+
+// Big Man's office: desk, leather chair, city window.
+const Office = () => (
+  <group position={[OFFICE_X, 0, 0]}>
+    <Box size={[5, 0.1, 4.4]} position={[0, 0.05, -0.3]} color="#6b3a22" />
+    <Box size={[5, 7, 0.2]} position={[0, 3.5, -2.5]} color="#2b3a55" />
+    <Box size={[2.6, 1.6, 0.08]} position={[0, 2.8, -2.38]} color="#ffb46b" glow={0.5} />
+    {[-0.8, 0, 0.8].map((x) => (
+      <Box key={x} size={[0.35, 1.0 + Math.abs(x), 0.05]} position={[x, 2.2 + Math.abs(x) / 2, -2.33]} color="#1c2438" />
+    ))}
+    <Box size={[0.9, 1.8, 0.3]} position={[0, 0.9, -1.4]} color="#3a1f14" />
+    <Box size={[2.6, 0.9, 0.9]} position={[0, 0.45, 0.2]} color="#7a4a2b" />
+    <Box size={[0.4, 0.3, 0.08]} position={[0.8, 1.05, 0.1]} color="#ffd23f" />
+  </group>
+);
+
 export const Sets = ({ flags }: { flags: string[] }) => (
   <>
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[14, 0, 0]} receiveShadow>
-      <planeGeometry args={[120, 40]} />
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[24, 0, 0]} receiveShadow>
+      <planeGeometry args={[160, 40]} />
       <meshStandardMaterial color="#e2b877" roughness={1} />
     </mesh>
     <Bedroom />
     <Door />
     <Parlour food={flags.includes("food")} />
     <Church />
+    <Stage screen={flags.includes("screen-red") ? "#d62f2f" : "#7fd0ff"} />
+    <Office />
   </>
 );

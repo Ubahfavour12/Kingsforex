@@ -57,7 +57,7 @@ const Bubble = ({ text, fill = "white", color = INK }: { text: string; fill?: st
       textAnchor="middle"
       fontFamily="Arial, sans-serif"
       fontWeight="900"
-      fontSize={Math.min(46, 600 / text.length)}
+      fontSize={Math.min(46, 560 / text.length)}
       fill={color}
     >
       {text}
@@ -121,7 +121,7 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
         castShadow
         shadow-mapSize={[4096, 2048]}
         shadow-camera-left={-7}
-        shadow-camera-right={34}
+        shadow-camera-right={54}
         shadow-camera-top={10}
         shadow-camera-bottom={-7}
       />
@@ -160,8 +160,9 @@ const World = ({ segs, specs }: { segs: Timed[]; specs: Record<string, SvgSpec> 
         if (local < start || local >= length * p1) return null;
         const map = tex[gagKey(g)];
         // keep the bubble inside the 9:16 frame: the view is about 0.43 x distance wide
-        const view = 0.43 * Math.hypot(...seg.shot.pos.map((v, k) => v - g.at[k]));
-        const w = Math.min(g.w ?? 1.6, view * 0.88);
+        const cam = shotAt(seg.shot, local / length).pos;
+        const view = 0.43 * Math.hypot(...cam.map((v, k) => v - g.at[k]));
+        const w = Math.min(g.w ?? 1.6, view * 0.8); // spring overshoot needs headroom
         const room = Math.max(0, (view * 0.94 - w) / 2);
         const x = Math.min(Math.max(g.at[0], seg.shot.look[0] - room), seg.shot.look[0] + room);
         if (g.float) {
