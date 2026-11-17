@@ -103,7 +103,7 @@ const SEGMENTS: Segment[] = [
   {
     b: 12, shot: parFood, badge: "SUNDAY", flags: ["food"],
     cast: { dev: { at: devTable, face: "vexed" } },
-    gags: [{ text: "N1,580/$ IN THE STEW", at: [PARLOUR_X + 0.3, 2.6, 0.6], w: 1.9, fill: RED, color: "white", p: [0.55, 1] }],
+    gags: [{ text: "N1,580/$ IN THE STEW", at: [PARLOUR_X + 0.3, 2.4, 0.7], w: 1.9, fill: RED, color: "white", p: [0.55, 1] }],
   },
   {
     b: 13, shot: streetTwo, badge: "MONDAY",

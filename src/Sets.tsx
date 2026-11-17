@@ -12,6 +12,8 @@ export const OFFICE_X = 48;
 export const SHOP_X = 58;
 export const YARD_X = 68;
 export const CAFE_X = 78;
+export const DANFO_X = 88;
+export const BANK_X = 98;
 
 // A box with a comic-book ink outline (a slightly larger black shell seen from inside).
 export const Box = ({ size, position, color, glow = 0 }: { size: V3; position: V3; color: string; glow?: number }) => (
@@ -197,10 +199,42 @@ const Cafe = () => (
   </group>
 );
 
+// Inside a yellow danfo bus: benches, windows with the bridge outside.
+const Danfo = () => (
+  <group position={[DANFO_X, 0, 0]}>
+    <Box size={[6, 0.1, 3.6]} position={[0, 0.05, -0.3]} color="#4a4a52" />
+    <Box size={[6, 3.0, 0.15]} position={[0, 1.5, -2.1]} color="#ffc61a" />
+    <Box size={[6, 0.15, 0.2]} position={[0, 1.1, -2.0]} color="#1b1410" />
+    {[-2.0, -0.6, 0.8, 2.2].map((x) => (
+      <Box key={x} size={[1.1, 0.8, 0.06]} position={[x, 1.85, -2.0]} color="#9fd4ff" glow={0.5} />
+    ))}
+    <Box size={[6, 0.15, 3.6]} position={[0, 3.0, -0.3]} color="#e8b40f" />
+    {/* benches: people standing behind one read as seated */}
+    <Box size={[5.4, 0.85, 0.5]} position={[0, 0.43, 0.6]} color="#7a2f25" />
+    <Box size={[5.4, 0.5, 0.45]} position={[0, 0.25, -1.1]} color="#7a2f25" />
+  </group>
+);
+
+// Bank hall: counter with glass, an ATM by the door, a queue rope.
+const Bank = () => (
+  <group position={[BANK_X, 0, 0]}>
+    <Box size={[7, 0.1, 4.6]} position={[0, 0.05, -0.3]} color="#e6e1d6" />
+    <Box size={[7, 7, 0.2]} position={[0, 3.5, -2.6]} color="#2f6f8f" />
+    <Box size={[3.2, 0.5, 0.06]} position={[-0.8, 3.3, -2.46]} color="#ffd23f" />
+    <Box size={[3.6, 1.1, 0.6]} position={[-1.0, 0.55, -1.8]} color="#c9ced6" />
+    <Box size={[3.6, 1.0, 0.04]} position={[-1.0, 1.6, -1.55]} color="#bfe3ff" />
+    <Box size={[0.9, 1.9, 0.6]} position={[2.4, 0.95, -1.8]} color="#3b4252" />
+    <Box size={[0.5, 0.4, 0.04]} position={[2.4, 1.35, -1.48]} color="#7fd0ff" glow={0.6} />
+    <Box size={[0.06, 0.9, 0.06]} position={[1.2, 0.45, 0.6]} color="#c9a37a" />
+    <Box size={[0.06, 0.9, 0.06]} position={[3.4, 0.45, 0.6]} color="#c9a37a" />
+    <Box size={[2.2, 0.05, 0.05]} position={[2.3, 0.85, 0.6]} color="#d62f2f" />
+  </group>
+);
+
 export const Sets = ({ flags }: { flags: string[] }) => (
   <>
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[24, 0, 0]} receiveShadow>
-      <planeGeometry args={[160, 40]} />
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[50, 0, 0]} receiveShadow>
+      <planeGeometry args={[220, 40]} />
       <meshStandardMaterial color="#e2b877" roughness={1} />
     </mesh>
     <Bedroom />
@@ -212,5 +246,7 @@ export const Sets = ({ flags }: { flags: string[] }) => (
     <Shop />
     <Yard />
     <Cafe />
+    <Danfo />
+    <Bank />
   </>
 );
