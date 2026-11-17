@@ -9,7 +9,7 @@ from pathlib import Path
 
 GAP_MS = 250     # pause between beats
 WORDS_PER_SECOND = 2.6  # pace assumed for beats that are not voiced yet
-TEMPO = 1.12     # the cloned voice reads slowly; tighten it for comedy pacing
+TEMPO = 1.0  # voice A already speaks at storytelling pace; raise to tighten
 
 ep = sys.argv[1]
 src = Path("assets") / ep

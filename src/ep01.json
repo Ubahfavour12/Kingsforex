@@ -2,1789 +2,1789 @@
  "beats": [
   {
    "startMs": 0,
-   "endMs": 6525
+   "endMs": 5370
   },
   {
-   "startMs": 6775,
-   "endMs": 13808
+   "startMs": 5620,
+   "endMs": 10223
   },
   {
-   "startMs": 14058,
-   "endMs": 19858
+   "startMs": 10473,
+   "endMs": 15886
   },
   {
-   "startMs": 20108,
-   "endMs": 31762
+   "startMs": 16136,
+   "endMs": 30155
   },
   {
-   "startMs": 32012,
-   "endMs": 36421
+   "startMs": 30405,
+   "endMs": 33216
   },
   {
-   "startMs": 36671,
-   "endMs": 49361
+   "startMs": 33466,
+   "endMs": 46976
   },
   {
-   "startMs": 49611,
-   "endMs": 59231
+   "startMs": 47226,
+   "endMs": 55301
   },
   {
-   "startMs": 59481,
-   "endMs": 62171
+   "startMs": 55551,
+   "endMs": 58922
   },
   {
-   "startMs": 62421,
-   "endMs": 73571
+   "startMs": 59172,
+   "endMs": 68984
   },
   {
-   "startMs": 73821,
-   "endMs": 79971
+   "startMs": 69234,
+   "endMs": 75279
   },
   {
-   "startMs": 80221,
-   "endMs": 83301
+   "startMs": 75529,
+   "endMs": 78703
   },
   {
-   "startMs": 83551,
-   "endMs": 89701
+   "startMs": 78953,
+   "endMs": 86812
   },
   {
-   "startMs": 89951,
-   "endMs": 97261
+   "startMs": 87062,
+   "endMs": 95518
   },
   {
-   "startMs": 97511,
-   "endMs": 106741
+   "startMs": 95768,
+   "endMs": 106334
   },
   {
-   "startMs": 106991,
-   "endMs": 114301
+   "startMs": 106584,
+   "endMs": 112381
   },
   {
-   "startMs": 114551,
-   "endMs": 123401
+   "startMs": 112631,
+   "endMs": 121233
   },
   {
-   "startMs": 123651,
-   "endMs": 133651
+   "startMs": 121483,
+   "endMs": 130416
   }
  ],
  "captions": [
   {
    "text": "I",
    "startMs": 0,
-   "endMs": 167
+   "endMs": 138
   },
   {
    "text": "dey",
-   "startMs": 167,
-   "endMs": 502
+   "startMs": 138,
+   "endMs": 413
   },
   {
    "text": "earn",
-   "startMs": 502,
-   "endMs": 920
+   "startMs": 413,
+   "endMs": 757
   },
   {
    "text": "dollar",
-   "startMs": 920,
-   "endMs": 1506
+   "startMs": 757,
+   "endMs": 1239
   },
   {
    "text": "from",
-   "startMs": 1506,
-   "endMs": 1924
+   "startMs": 1239,
+   "endMs": 1583
   },
   {
    "text": "my",
-   "startMs": 1924,
-   "endMs": 2175
+   "startMs": 1583,
+   "endMs": 1790
   },
   {
    "text": "bedroom,",
-   "startMs": 2175,
-   "endMs": 2928
+   "startMs": 1790,
+   "endMs": 2410
   },
   {
    "text": "but",
-   "startMs": 2928,
-   "endMs": 3263
+   "startMs": 2410,
+   "endMs": 2685
   },
   {
    "text": "my",
-   "startMs": 3263,
-   "endMs": 3514
+   "startMs": 2685,
+   "endMs": 2892
   },
   {
    "text": "mama",
-   "startMs": 3514,
-   "endMs": 3932
+   "startMs": 2892,
+   "endMs": 3236
   },
   {
    "text": "dey",
-   "startMs": 3932,
-   "endMs": 4267
+   "startMs": 3236,
+   "endMs": 3511
   },
   {
    "text": "pray",
-   "startMs": 4267,
-   "endMs": 4685
+   "startMs": 3511,
+   "endMs": 3855
   },
   {
    "text": "make",
-   "startMs": 4685,
-   "endMs": 5103
+   "startMs": 3855,
+   "endMs": 4200
   },
   {
    "text": "God",
-   "startMs": 5103,
-   "endMs": 5438
+   "startMs": 4200,
+   "endMs": 4475
   },
   {
    "text": "give",
-   "startMs": 5438,
-   "endMs": 5856
+   "startMs": 4475,
+   "endMs": 4819
   },
   {
    "text": "me",
-   "startMs": 5856,
-   "endMs": 6107
+   "startMs": 4819,
+   "endMs": 5026
   },
   {
    "text": "job.",
-   "startMs": 6107,
-   "endMs": 6525,
+   "startMs": 5026,
+   "endMs": 5370,
    "endBeat": true
   },
   {
    "text": "Every",
-   "startMs": 6775,
-   "endMs": 7197
+   "startMs": 5620,
+   "endMs": 5896
   },
   {
    "text": "morning,",
-   "startMs": 7197,
-   "endMs": 7830
+   "startMs": 5896,
+   "endMs": 6311
   },
   {
    "text": "six",
-   "startMs": 7830,
-   "endMs": 8112
+   "startMs": 6311,
+   "endMs": 6495
   },
   {
    "text": "o'clock,",
-   "startMs": 8112,
-   "endMs": 8745
+   "startMs": 6495,
+   "endMs": 6909
   },
   {
    "text": "she",
-   "startMs": 8745,
-   "endMs": 9026
+   "startMs": 6909,
+   "endMs": 7093
   },
   {
    "text": "go",
-   "startMs": 9026,
-   "endMs": 9237
+   "startMs": 7093,
+   "endMs": 7231
   },
   {
    "text": "knock",
-   "startMs": 9237,
-   "endMs": 9659
+   "startMs": 7231,
+   "endMs": 7507
   },
   {
    "text": "my",
-   "startMs": 9659,
-   "endMs": 9870
+   "startMs": 7507,
+   "endMs": 7646
   },
   {
    "text": "door.",
-   "startMs": 9870,
-   "endMs": 10292
+   "startMs": 7646,
+   "endMs": 7922
   },
   {
    "text": "You",
-   "startMs": 10292,
-   "endMs": 10573
+   "startMs": 7922,
+   "endMs": 8106
   },
   {
    "text": "still",
-   "startMs": 10573,
-   "endMs": 10995
+   "startMs": 8106,
+   "endMs": 8382
   },
   {
    "text": "dey",
-   "startMs": 10995,
-   "endMs": 11276
+   "startMs": 8382,
+   "endMs": 8566
   },
   {
    "text": "sleep?",
-   "startMs": 11276,
-   "endMs": 11769
+   "startMs": 8566,
+   "endMs": 8888
   },
   {
    "text": "Your",
-   "startMs": 11769,
-   "endMs": 12120
+   "startMs": 8888,
+   "endMs": 9119
   },
   {
    "text": "mates",
-   "startMs": 12120,
-   "endMs": 12542
+   "startMs": 9119,
+   "endMs": 9395
   },
   {
    "text": "don",
-   "startMs": 12542,
-   "endMs": 12824
+   "startMs": 9395,
+   "endMs": 9579
   },
   {
    "text": "reach",
-   "startMs": 12824,
-   "endMs": 13246
+   "startMs": 9579,
+   "endMs": 9855
   },
   {
    "text": "office!",
-   "startMs": 13246,
-   "endMs": 13808,
+   "startMs": 9855,
+   "endMs": 10223,
    "endBeat": true
   },
   {
    "text": "Mama,",
-   "startMs": 14058,
-   "endMs": 14542
+   "startMs": 10473,
+   "endMs": 10924
   },
   {
    "text": "my",
-   "startMs": 14542,
-   "endMs": 14783
+   "startMs": 10924,
+   "endMs": 11150
   },
   {
    "text": "office",
-   "startMs": 14783,
-   "endMs": 15347
+   "startMs": 11150,
+   "endMs": 11676
   },
   {
    "text": "na",
-   "startMs": 15347,
-   "endMs": 15589
+   "startMs": 11676,
+   "endMs": 11902
   },
   {
    "text": "this",
-   "startMs": 15589,
-   "endMs": 15991
+   "startMs": 11902,
+   "endMs": 12278
   },
   {
    "text": "bed.",
-   "startMs": 15991,
-   "endMs": 16394
+   "startMs": 12278,
+   "endMs": 12654
   },
   {
    "text": "My",
-   "startMs": 16394,
-   "endMs": 16636
+   "startMs": 12654,
+   "endMs": 12879
   },
   {
    "text": "oga",
-   "startMs": 16636,
-   "endMs": 16958
+   "startMs": 12879,
+   "endMs": 13180
   },
   {
    "text": "dey",
-   "startMs": 16958,
-   "endMs": 17280
+   "startMs": 13180,
+   "endMs": 13481
   },
   {
    "text": "California.",
-   "startMs": 17280,
-   "endMs": 18247
+   "startMs": 13481,
+   "endMs": 14383
   },
   {
    "text": "E",
-   "startMs": 18247,
-   "endMs": 18408
+   "startMs": 14383,
+   "endMs": 14533
   },
   {
    "text": "never",
-   "startMs": 18408,
-   "endMs": 18891
+   "startMs": 14533,
+   "endMs": 14984
   },
   {
    "text": "even",
-   "startMs": 18891,
-   "endMs": 19294
+   "startMs": 14984,
+   "endMs": 15360
   },
   {
    "text": "sleep.",
-   "startMs": 19294,
-   "endMs": 19858,
+   "startMs": 15360,
+   "endMs": 15886,
    "endBeat": true
   },
   {
    "text": "But",
-   "startMs": 20108,
-   "endMs": 20387
+   "startMs": 16136,
+   "endMs": 16472
   },
   {
    "text": "try",
-   "startMs": 20387,
-   "endMs": 20666
+   "startMs": 16472,
+   "endMs": 16808
   },
   {
    "text": "explain",
-   "startMs": 20666,
-   "endMs": 21224
+   "startMs": 16808,
+   "endMs": 17480
   },
   {
    "text": "am.",
-   "startMs": 21224,
-   "endMs": 21503
+   "startMs": 17480,
+   "endMs": 17815
   },
   {
    "text": "I",
-   "startMs": 21503,
-   "endMs": 21643
+   "startMs": 17815,
+   "endMs": 17983
   },
   {
    "text": "tell",
-   "startMs": 21643,
-   "endMs": 21992
+   "startMs": 17983,
+   "endMs": 18403
   },
   {
    "text": "her",
-   "startMs": 21992,
-   "endMs": 22271
+   "startMs": 18403,
+   "endMs": 18739
   },
   {
    "text": "say",
-   "startMs": 22271,
-   "endMs": 22550
+   "startMs": 18739,
+   "endMs": 19074
   },
   {
    "text": "I",
-   "startMs": 22550,
-   "endMs": 22690
+   "startMs": 19074,
+   "endMs": 19242
   },
   {
    "text": "be",
-   "startMs": 22690,
-   "endMs": 22899
+   "startMs": 19242,
+   "endMs": 19494
   },
   {
    "text": "software",
-   "startMs": 22899,
-   "endMs": 23527
+   "startMs": 19494,
+   "endMs": 20250
   },
   {
    "text": "developer.",
-   "startMs": 23527,
-   "endMs": 24295
+   "startMs": 20250,
+   "endMs": 21173
   },
   {
    "text": "She",
-   "startMs": 24295,
-   "endMs": 24574
+   "startMs": 21173,
+   "endMs": 21509
   },
   {
    "text": "ask",
-   "startMs": 24574,
-   "endMs": 24853
+   "startMs": 21509,
+   "endMs": 21845
   },
   {
    "text": "me,",
-   "startMs": 24853,
-   "endMs": 25132
+   "startMs": 21845,
+   "endMs": 22180
   },
   {
    "text": "So",
-   "startMs": 25132,
-   "endMs": 25342
+   "startMs": 22180,
+   "endMs": 22432
   },
   {
    "text": "na",
-   "startMs": 25342,
-   "endMs": 25551
+   "startMs": 22432,
+   "endMs": 22684
   },
   {
    "text": "you",
-   "startMs": 25551,
-   "endMs": 25830
+   "startMs": 22684,
+   "endMs": 23020
   },
   {
    "text": "dey",
-   "startMs": 25830,
-   "endMs": 26109
+   "startMs": 23020,
+   "endMs": 23356
   },
   {
    "text": "repair",
-   "startMs": 26109,
-   "endMs": 26598
+   "startMs": 23356,
+   "endMs": 23943
   },
   {
    "text": "phone?",
-   "startMs": 26598,
-   "endMs": 27086
+   "startMs": 23943,
+   "endMs": 24531
   },
   {
    "text": "I",
-   "startMs": 27086,
-   "endMs": 27226
+   "startMs": 24531,
+   "endMs": 24699
   },
   {
    "text": "say",
-   "startMs": 27226,
-   "endMs": 27505
+   "startMs": 24699,
+   "endMs": 25035
   },
   {
    "text": "no.",
-   "startMs": 27505,
-   "endMs": 27784
+   "startMs": 25035,
+   "endMs": 25370
   },
   {
    "text": "Computer?",
-   "startMs": 27784,
-   "endMs": 28482
+   "startMs": 25370,
+   "endMs": 26210
   },
   {
    "text": "No.",
-   "startMs": 28482,
-   "endMs": 28761
+   "startMs": 26210,
+   "endMs": 26546
   },
   {
    "text": "Then",
-   "startMs": 28761,
-   "endMs": 29110
+   "startMs": 26546,
+   "endMs": 26965
   },
   {
    "text": "wetin",
-   "startMs": 29110,
-   "endMs": 29529
+   "startMs": 26965,
+   "endMs": 27469
   },
   {
    "text": "you",
-   "startMs": 29529,
-   "endMs": 29808
+   "startMs": 27469,
+   "endMs": 27805
   },
   {
    "text": "dey",
-   "startMs": 29808,
-   "endMs": 30087
+   "startMs": 27805,
+   "endMs": 28141
   },
   {
    "text": "develop?",
-   "startMs": 30087,
-   "endMs": 30715
+   "startMs": 28141,
+   "endMs": 28896
   },
   {
    "text": "I",
-   "startMs": 30715,
-   "endMs": 30855
+   "startMs": 28896,
+   "endMs": 29064
   },
   {
    "text": "say",
-   "startMs": 30855,
-   "endMs": 31134
+   "startMs": 29064,
+   "endMs": 29400
   },
   {
    "text": "website.",
-   "startMs": 31134,
-   "endMs": 31762,
+   "startMs": 29400,
+   "endMs": 30155,
    "endBeat": true
   },
   {
    "text": "She",
-   "startMs": 32012,
-   "endMs": 32345
+   "startMs": 30405,
+   "endMs": 30617
   },
   {
    "text": "look",
-   "startMs": 32345,
-   "endMs": 32761
+   "startMs": 30617,
+   "endMs": 30883
   },
   {
    "text": "me",
-   "startMs": 32761,
-   "endMs": 33010
+   "startMs": 30883,
+   "endMs": 31042
   },
   {
    "text": "well",
-   "startMs": 33010,
-   "endMs": 33426
+   "startMs": 31042,
+   "endMs": 31307
   },
   {
    "text": "well,",
-   "startMs": 33426,
-   "endMs": 33925
+   "startMs": 31307,
+   "endMs": 31625
   },
   {
    "text": "come",
-   "startMs": 33925,
-   "endMs": 34341
+   "startMs": 31625,
+   "endMs": 31890
   },
   {
    "text": "say,",
-   "startMs": 34341,
-   "endMs": 34757
+   "startMs": 31890,
+   "endMs": 32155
   },
   {
    "text": "So",
-   "startMs": 34757,
-   "endMs": 35007
+   "startMs": 32155,
+   "endMs": 32314
   },
   {
    "text": "you",
-   "startMs": 35007,
-   "endMs": 35339
+   "startMs": 32314,
+   "endMs": 32526
   },
   {
    "text": "no",
-   "startMs": 35339,
-   "endMs": 35589
+   "startMs": 32526,
+   "endMs": 32685
   },
   {
    "text": "get",
-   "startMs": 35589,
-   "endMs": 35922
+   "startMs": 32685,
+   "endMs": 32898
   },
   {
    "text": "work.",
-   "startMs": 35922,
-   "endMs": 36421,
+   "startMs": 32898,
+   "endMs": 33216,
    "endBeat": true
   },
   {
    "text": "E",
-   "startMs": 36671,
-   "endMs": 36818
+   "startMs": 33466,
+   "endMs": 33623
   },
   {
    "text": "come",
-   "startMs": 36818,
-   "endMs": 37187
+   "startMs": 33623,
+   "endMs": 34016
   },
   {
    "text": "worse",
-   "startMs": 37187,
-   "endMs": 37630
+   "startMs": 34016,
+   "endMs": 34487
   },
   {
    "text": "the",
-   "startMs": 37630,
-   "endMs": 37925
+   "startMs": 34487,
+   "endMs": 34801
   },
   {
    "text": "day",
-   "startMs": 37925,
-   "endMs": 38220
+   "startMs": 34801,
+   "endMs": 35115
   },
   {
    "text": "wey",
-   "startMs": 38220,
-   "endMs": 38515
+   "startMs": 35115,
+   "endMs": 35429
   },
   {
    "text": "her",
-   "startMs": 38515,
-   "endMs": 38810
+   "startMs": 35429,
+   "endMs": 35744
   },
   {
    "text": "friend,",
-   "startMs": 38810,
-   "endMs": 39401
+   "startMs": 35744,
+   "endMs": 36372
   },
   {
    "text": "Mama",
-   "startMs": 39401,
-   "endMs": 39769
+   "startMs": 36372,
+   "endMs": 36765
   },
   {
    "text": "Chinedu,",
-   "startMs": 39769,
-   "endMs": 40433
+   "startMs": 36765,
+   "endMs": 37472
   },
   {
    "text": "come",
-   "startMs": 40433,
-   "endMs": 40802
+   "startMs": 37472,
+   "endMs": 37864
   },
   {
    "text": "visit.",
-   "startMs": 40802,
-   "endMs": 41319
+   "startMs": 37864,
+   "endMs": 38414
   },
   {
    "text": "Mama",
-   "startMs": 41319,
-   "endMs": 41688
+   "startMs": 38414,
+   "endMs": 38807
   },
   {
    "text": "Chinedu",
-   "startMs": 41688,
-   "endMs": 42278
+   "startMs": 38807,
+   "endMs": 39435
   },
   {
    "text": "pikin",
-   "startMs": 42278,
-   "endMs": 42721
+   "startMs": 39435,
+   "endMs": 39907
   },
   {
    "text": "na",
-   "startMs": 42721,
-   "endMs": 42942
+   "startMs": 39907,
+   "endMs": 40142
   },
   {
    "text": "banker.",
-   "startMs": 42942,
-   "endMs": 43532
+   "startMs": 40142,
+   "endMs": 40771
   },
   {
    "text": "Suit,",
-   "startMs": 43532,
-   "endMs": 43975
+   "startMs": 40771,
+   "endMs": 41242
   },
   {
    "text": "tie,",
-   "startMs": 43975,
-   "endMs": 44344
+   "startMs": 41242,
+   "endMs": 41635
   },
   {
    "text": "ID",
-   "startMs": 44344,
-   "endMs": 44565
+   "startMs": 41635,
+   "endMs": 41870
   },
   {
    "text": "card",
-   "startMs": 44565,
-   "endMs": 44934
+   "startMs": 41870,
+   "endMs": 42263
   },
   {
    "text": "for",
-   "startMs": 44934,
-   "endMs": 45229
+   "startMs": 42263,
+   "endMs": 42577
   },
   {
    "text": "neck.",
-   "startMs": 45229,
-   "endMs": 45672
+   "startMs": 42577,
+   "endMs": 43049
   },
   {
    "text": "Every",
-   "startMs": 45672,
-   "endMs": 46114
+   "startMs": 43049,
+   "endMs": 43520
   },
   {
    "text": "sentence,",
-   "startMs": 46114,
-   "endMs": 46852
+   "startMs": 43520,
+   "endMs": 44305
   },
   {
    "text": "My",
-   "startMs": 46852,
-   "endMs": 47074
+   "startMs": 44305,
+   "endMs": 44541
   },
   {
    "text": "son",
-   "startMs": 47074,
-   "endMs": 47369
+   "startMs": 44541,
+   "endMs": 44855
   },
   {
    "text": "for",
-   "startMs": 47369,
-   "endMs": 47664
+   "startMs": 44855,
+   "endMs": 45169
   },
   {
    "text": "bank,",
-   "startMs": 47664,
-   "endMs": 48106
+   "startMs": 45169,
+   "endMs": 45641
   },
   {
    "text": "my",
-   "startMs": 48106,
-   "endMs": 48328
+   "startMs": 45641,
+   "endMs": 45876
   },
   {
    "text": "son",
-   "startMs": 48328,
-   "endMs": 48623
+   "startMs": 45876,
+   "endMs": 46191
   },
   {
    "text": "for",
-   "startMs": 48623,
-   "endMs": 48918
+   "startMs": 46191,
+   "endMs": 46505
   },
   {
    "text": "bank.",
-   "startMs": 48918,
-   "endMs": 49361,
+   "startMs": 46505,
+   "endMs": 46976,
    "endBeat": true
   },
   {
    "text": "Then",
-   "startMs": 49611,
-   "endMs": 50018
+   "startMs": 47226,
+   "endMs": 47568
   },
   {
    "text": "she",
-   "startMs": 50018,
-   "endMs": 50344
+   "startMs": 47568,
+   "endMs": 47842
   },
   {
    "text": "turn",
-   "startMs": 50344,
-   "endMs": 50752
+   "startMs": 47842,
+   "endMs": 48184
   },
   {
    "text": "face",
-   "startMs": 50752,
-   "endMs": 51160
+   "startMs": 48184,
+   "endMs": 48526
   },
   {
    "text": "me.",
-   "startMs": 51160,
-   "endMs": 51486
+   "startMs": 48526,
+   "endMs": 48800
   },
   {
    "text": "And",
-   "startMs": 51486,
-   "endMs": 51812
+   "startMs": 48800,
+   "endMs": 49074
   },
   {
    "text": "you,",
-   "startMs": 51812,
-   "endMs": 52220
+   "startMs": 49074,
+   "endMs": 49416
   },
   {
    "text": "wetin",
-   "startMs": 52220,
-   "endMs": 52709
+   "startMs": 49416,
+   "endMs": 49826
   },
   {
    "text": "you",
-   "startMs": 52709,
-   "endMs": 53035
+   "startMs": 49826,
+   "endMs": 50100
   },
   {
    "text": "dey",
-   "startMs": 53035,
-   "endMs": 53361
+   "startMs": 50100,
+   "endMs": 50374
   },
   {
    "text": "do?",
-   "startMs": 53361,
-   "endMs": 53687
+   "startMs": 50374,
+   "endMs": 50648
   },
   {
    "text": "Before",
-   "startMs": 53687,
-   "endMs": 54258
+   "startMs": 50648,
+   "endMs": 51127
   },
   {
    "text": "I",
-   "startMs": 54258,
-   "endMs": 54421
+   "startMs": 51127,
+   "endMs": 51263
   },
   {
    "text": "open",
-   "startMs": 54421,
-   "endMs": 54828
+   "startMs": 51263,
+   "endMs": 51606
   },
   {
    "text": "mouth,",
-   "startMs": 54828,
-   "endMs": 55399
+   "startMs": 51606,
+   "endMs": 52085
   },
   {
    "text": "my",
-   "startMs": 55399,
-   "endMs": 55644
+   "startMs": 52085,
+   "endMs": 52290
   },
   {
    "text": "mama",
-   "startMs": 55644,
-   "endMs": 56051
+   "startMs": 52290,
+   "endMs": 52632
   },
   {
    "text": "don",
-   "startMs": 56051,
-   "endMs": 56377
+   "startMs": 52632,
+   "endMs": 52906
   },
   {
    "text": "answer",
-   "startMs": 56377,
-   "endMs": 56948
+   "startMs": 52906,
+   "endMs": 53385
   },
   {
    "text": "for",
-   "startMs": 56948,
-   "endMs": 57274
+   "startMs": 53385,
+   "endMs": 53659
   },
   {
    "text": "me.",
-   "startMs": 57274,
-   "endMs": 57600
+   "startMs": 53659,
+   "endMs": 53932
   },
   {
    "text": "E",
-   "startMs": 57600,
-   "endMs": 57763
+   "startMs": 53932,
+   "endMs": 54069
   },
   {
    "text": "dey",
-   "startMs": 57763,
-   "endMs": 58089
+   "startMs": 54069,
+   "endMs": 54343
   },
   {
    "text": "press",
-   "startMs": 58089,
-   "endMs": 58579
+   "startMs": 54343,
+   "endMs": 54753
   },
   {
    "text": "laptop.",
-   "startMs": 58579,
-   "endMs": 59231,
+   "startMs": 54753,
+   "endMs": 55301,
    "endBeat": true
   },
   {
    "text": "Press",
-   "startMs": 59481,
-   "endMs": 59985
+   "startMs": 55551,
+   "endMs": 56183
   },
   {
    "text": "laptop!",
-   "startMs": 59985,
-   "endMs": 60658
+   "startMs": 56183,
+   "endMs": 57026
   },
   {
    "text": "Like",
-   "startMs": 60658,
-   "endMs": 61078
+   "startMs": 57026,
+   "endMs": 57552
   },
   {
    "text": "say",
-   "startMs": 61078,
-   "endMs": 61414
+   "startMs": 57552,
+   "endMs": 57974
   },
   {
    "text": "I",
-   "startMs": 61414,
-   "endMs": 61582
+   "startMs": 57974,
+   "endMs": 58184
   },
   {
    "text": "be",
-   "startMs": 61582,
-   "endMs": 61834
+   "startMs": 58184,
+   "endMs": 58500
   },
   {
    "text": "DJ.",
-   "startMs": 61834,
-   "endMs": 62171,
+   "startMs": 58500,
+   "endMs": 58922,
    "endBeat": true
   },
   {
    "text": "So",
-   "startMs": 62421,
-   "endMs": 62669
+   "startMs": 59172,
+   "endMs": 59390
   },
   {
    "text": "I",
-   "startMs": 62669,
-   "endMs": 62834
+   "startMs": 59390,
+   "endMs": 59535
   },
   {
    "text": "decide",
-   "startMs": 62834,
-   "endMs": 63412
+   "startMs": 59535,
+   "endMs": 60044
   },
   {
    "text": "say",
-   "startMs": 63412,
-   "endMs": 63742
+   "startMs": 60044,
+   "endMs": 60335
   },
   {
    "text": "I",
-   "startMs": 63742,
-   "endMs": 63907
+   "startMs": 60335,
+   "endMs": 60480
   },
   {
    "text": "go",
-   "startMs": 63907,
-   "endMs": 64155
+   "startMs": 60480,
+   "endMs": 60698
   },
   {
    "text": "prove",
-   "startMs": 64155,
-   "endMs": 64651
+   "startMs": 60698,
+   "endMs": 61134
   },
   {
    "text": "am.",
-   "startMs": 64651,
-   "endMs": 64981
+   "startMs": 61134,
+   "endMs": 61425
   },
   {
    "text": "I",
-   "startMs": 64981,
-   "endMs": 65146
+   "startMs": 61425,
+   "endMs": 61570
   },
   {
    "text": "carry",
-   "startMs": 65146,
-   "endMs": 65642
+   "startMs": 61570,
+   "endMs": 62006
   },
   {
    "text": "my",
-   "startMs": 65642,
-   "endMs": 65890
+   "startMs": 62006,
+   "endMs": 62224
   },
   {
    "text": "laptop",
-   "startMs": 65890,
-   "endMs": 66468
+   "startMs": 62224,
+   "endMs": 62733
   },
   {
    "text": "come",
-   "startMs": 66468,
-   "endMs": 66881
+   "startMs": 62733,
+   "endMs": 63097
   },
   {
    "text": "parlour.",
-   "startMs": 66881,
-   "endMs": 67624
+   "startMs": 63097,
+   "endMs": 63751
   },
   {
    "text": "I",
-   "startMs": 67624,
-   "endMs": 67789
+   "startMs": 63751,
+   "endMs": 63896
   },
   {
    "text": "show",
-   "startMs": 67789,
-   "endMs": 68202
+   "startMs": 63896,
+   "endMs": 64260
   },
   {
    "text": "them",
-   "startMs": 68202,
-   "endMs": 68615
+   "startMs": 64260,
+   "endMs": 64623
   },
   {
    "text": "the",
-   "startMs": 68615,
-   "endMs": 68946
+   "startMs": 64623,
+   "endMs": 64914
   },
   {
    "text": "app",
-   "startMs": 68946,
-   "endMs": 69276
+   "startMs": 64914,
+   "endMs": 65205
   },
   {
    "text": "wey",
-   "startMs": 69276,
-   "endMs": 69606
+   "startMs": 65205,
+   "endMs": 65495
   },
   {
    "text": "I",
-   "startMs": 69606,
-   "endMs": 69771
+   "startMs": 65495,
+   "endMs": 65641
   },
   {
    "text": "build.",
-   "startMs": 69771,
-   "endMs": 70350
+   "startMs": 65641,
+   "endMs": 66149
   },
   {
    "text": "People",
-   "startMs": 70350,
-   "endMs": 70928
+   "startMs": 66149,
+   "endMs": 66658
   },
   {
    "text": "dey",
-   "startMs": 70928,
-   "endMs": 71258
+   "startMs": 66658,
+   "endMs": 66949
   },
   {
    "text": "use",
-   "startMs": 71258,
-   "endMs": 71589
+   "startMs": 66949,
+   "endMs": 67240
   },
   {
    "text": "am",
-   "startMs": 71589,
-   "endMs": 71836
+   "startMs": 67240,
+   "endMs": 67458
   },
   {
    "text": "for",
-   "startMs": 71836,
-   "endMs": 72167
+   "startMs": 67458,
+   "endMs": 67748
   },
   {
    "text": "three",
-   "startMs": 72167,
-   "endMs": 72662
+   "startMs": 67748,
+   "endMs": 68185
   },
   {
    "text": "countries.",
-   "startMs": 72662,
-   "endMs": 73571,
+   "startMs": 68185,
+   "endMs": 68984,
    "endBeat": true
   },
   {
    "text": "Mama",
-   "startMs": 73821,
-   "endMs": 74205
+   "startMs": 69234,
+   "endMs": 69612
   },
   {
    "text": "Chinedu",
-   "startMs": 74205,
-   "endMs": 74820
+   "startMs": 69612,
+   "endMs": 70216
   },
   {
    "text": "look",
-   "startMs": 74820,
-   "endMs": 75204
+   "startMs": 70216,
+   "endMs": 70594
   },
   {
    "text": "the",
-   "startMs": 75204,
-   "endMs": 75512
+   "startMs": 70594,
+   "endMs": 70896
   },
   {
    "text": "screen,",
-   "startMs": 75512,
-   "endMs": 76127
+   "startMs": 70896,
+   "endMs": 71501
   },
   {
    "text": "she",
-   "startMs": 76127,
-   "endMs": 76434
+   "startMs": 71501,
+   "endMs": 71803
   },
   {
    "text": "nod.",
-   "startMs": 76434,
-   "endMs": 76819
+   "startMs": 71803,
+   "endMs": 72181
   },
   {
    "text": "She",
-   "startMs": 76819,
-   "endMs": 77126
+   "startMs": 72181,
+   "endMs": 72483
   },
   {
    "text": "say,",
-   "startMs": 77126,
-   "endMs": 77511
+   "startMs": 72483,
+   "endMs": 72861
   },
   {
    "text": "E",
-   "startMs": 77511,
-   "endMs": 77664
+   "startMs": 72861,
+   "endMs": 73012
   },
   {
    "text": "fine.",
-   "startMs": 77664,
-   "endMs": 78126
+   "startMs": 73012,
+   "endMs": 73466
   },
   {
    "text": "But",
-   "startMs": 78126,
-   "endMs": 78433
+   "startMs": 73466,
+   "endMs": 73768
   },
   {
    "text": "where",
-   "startMs": 78433,
-   "endMs": 78894
+   "startMs": 73768,
+   "endMs": 74221
   },
   {
    "text": "your",
-   "startMs": 78894,
-   "endMs": 79279
+   "startMs": 74221,
+   "endMs": 74599
   },
   {
    "text": "ID",
-   "startMs": 79279,
-   "endMs": 79509
+   "startMs": 74599,
+   "endMs": 74826
   },
   {
    "text": "card?",
-   "startMs": 79509,
-   "endMs": 79971,
+   "startMs": 74826,
+   "endMs": 75279,
    "endBeat": true
   },
   {
    "text": "I",
-   "startMs": 80221,
-   "endMs": 80419
+   "startMs": 75529,
+   "endMs": 75734
   },
   {
    "text": "no",
-   "startMs": 80419,
-   "endMs": 80717
+   "startMs": 75734,
+   "endMs": 76041
   },
   {
    "text": "get",
-   "startMs": 80717,
-   "endMs": 81115
+   "startMs": 76041,
+   "endMs": 76451
   },
   {
    "text": "ID",
-   "startMs": 81115,
-   "endMs": 81413
+   "startMs": 76451,
+   "endMs": 76758
   },
   {
    "text": "card.",
-   "startMs": 81413,
-   "endMs": 82009
+   "startMs": 76758,
+   "endMs": 77372
   },
   {
    "text": "I",
-   "startMs": 82009,
-   "endMs": 82208
+   "startMs": 77372,
+   "endMs": 77577
   },
   {
    "text": "get",
-   "startMs": 82208,
-   "endMs": 82605
+   "startMs": 77577,
+   "endMs": 77986
   },
   {
    "text": "Slack.",
-   "startMs": 82605,
-   "endMs": 83301,
+   "startMs": 77986,
+   "endMs": 78703,
    "endBeat": true
   },
   {
    "text": "That",
-   "startMs": 83551,
-   "endMs": 83885
+   "startMs": 78953,
+   "endMs": 79380
   },
   {
    "text": "night",
-   "startMs": 83885,
-   "endMs": 84286
+   "startMs": 79380,
+   "endMs": 79892
   },
   {
    "text": "I",
-   "startMs": 84286,
-   "endMs": 84420
+   "startMs": 79892,
+   "endMs": 80063
   },
   {
    "text": "vex.",
-   "startMs": 84420,
-   "endMs": 84754
+   "startMs": 80063,
+   "endMs": 80490
   },
   {
    "text": "I",
-   "startMs": 84754,
-   "endMs": 84888
+   "startMs": 80490,
+   "endMs": 80661
   },
   {
    "text": "transfer",
-   "startMs": 84888,
-   "endMs": 85489
+   "startMs": 80661,
+   "endMs": 81430
   },
   {
    "text": "fifty",
-   "startMs": 85489,
-   "endMs": 85890
+   "startMs": 81430,
+   "endMs": 81942
   },
   {
    "text": "thousand",
-   "startMs": 85890,
-   "endMs": 86492
+   "startMs": 81942,
+   "endMs": 82711
   },
   {
    "text": "naira",
-   "startMs": 86492,
-   "endMs": 86893
+   "startMs": 82711,
+   "endMs": 83224
   },
   {
    "text": "give",
-   "startMs": 86893,
-   "endMs": 87227
+   "startMs": 83224,
+   "endMs": 83651
   },
   {
    "text": "my",
-   "startMs": 87227,
-   "endMs": 87428
+   "startMs": 83651,
+   "endMs": 83907
   },
   {
    "text": "mama.",
-   "startMs": 87428,
-   "endMs": 87829
+   "startMs": 83907,
+   "endMs": 84420
   },
   {
    "text": "No",
-   "startMs": 87829,
-   "endMs": 88030
+   "startMs": 84420,
+   "endMs": 84676
   },
   {
    "text": "explanation.",
-   "startMs": 88030,
-   "endMs": 88899
+   "startMs": 84676,
+   "endMs": 85786
   },
   {
    "text": "Just",
-   "startMs": 88899,
-   "endMs": 89233
+   "startMs": 85786,
+   "endMs": 86214
   },
   {
    "text": "alert.",
-   "startMs": 89233,
-   "endMs": 89701,
+   "startMs": 86214,
+   "endMs": 86812,
    "endBeat": true
   },
   {
    "text": "You",
-   "startMs": 89951,
-   "endMs": 90246
+   "startMs": 87062,
+   "endMs": 87403
   },
   {
    "text": "see,",
-   "startMs": 90246,
-   "endMs": 90615
+   "startMs": 87403,
+   "endMs": 87830
   },
   {
    "text": "na",
-   "startMs": 90615,
-   "endMs": 90837
+   "startMs": 87830,
+   "endMs": 88087
   },
   {
    "text": "here",
-   "startMs": 90837,
-   "endMs": 91206
+   "startMs": 88087,
+   "endMs": 88514
   },
   {
    "text": "the",
-   "startMs": 91206,
-   "endMs": 91501
+   "startMs": 88514,
+   "endMs": 88855
   },
   {
    "text": "matter",
-   "startMs": 91501,
-   "endMs": 92018
+   "startMs": 88855,
+   "endMs": 89453
   },
   {
    "text": "turn.",
-   "startMs": 92018,
-   "endMs": 92461
+   "startMs": 89453,
+   "endMs": 89966
   },
   {
    "text": "Because",
-   "startMs": 92461,
-   "endMs": 93052
+   "startMs": 89966,
+   "endMs": 90649
   },
   {
    "text": "that",
-   "startMs": 93052,
-   "endMs": 93421
+   "startMs": 90649,
+   "endMs": 91076
   },
   {
    "text": "alert",
-   "startMs": 93421,
-   "endMs": 93864
+   "startMs": 91076,
+   "endMs": 91589
   },
   {
    "text": "do",
-   "startMs": 93864,
-   "endMs": 94086
+   "startMs": 91589,
+   "endMs": 91845
   },
   {
    "text": "wetin",
-   "startMs": 94086,
-   "endMs": 94529
+   "startMs": 91845,
+   "endMs": 92358
   },
   {
    "text": "four",
-   "startMs": 94529,
-   "endMs": 94898
+   "startMs": 92358,
+   "endMs": 92785
   },
   {
    "text": "years",
-   "startMs": 94898,
-   "endMs": 95341
+   "startMs": 92785,
+   "endMs": 93297
   },
   {
    "text": "of",
-   "startMs": 95341,
-   "endMs": 95562
+   "startMs": 93297,
+   "endMs": 93554
   },
   {
    "text": "explanation",
-   "startMs": 95562,
-   "endMs": 96449
+   "startMs": 93554,
+   "endMs": 94579
   },
   {
    "text": "no",
-   "startMs": 96449,
-   "endMs": 96670
+   "startMs": 94579,
+   "endMs": 94835
   },
   {
    "text": "fit",
-   "startMs": 96670,
-   "endMs": 96965
+   "startMs": 94835,
+   "endMs": 95177
   },
   {
    "text": "do.",
-   "startMs": 96965,
-   "endMs": 97261,
+   "startMs": 95177,
+   "endMs": 95518,
    "endBeat": true
   },
   {
    "text": "Next",
-   "startMs": 97511,
-   "endMs": 97866
+   "startMs": 95768,
+   "endMs": 96175
   },
   {
    "text": "morning,",
-   "startMs": 97866,
-   "endMs": 98505
+   "startMs": 96175,
+   "endMs": 96906
   },
   {
    "text": "six",
-   "startMs": 98505,
-   "endMs": 98789
+   "startMs": 96906,
+   "endMs": 97231
   },
   {
    "text": "o'clock,",
-   "startMs": 98789,
-   "endMs": 99428
+   "startMs": 97231,
+   "endMs": 97963
   },
   {
    "text": "nobody",
-   "startMs": 99428,
-   "endMs": 99925
+   "startMs": 97963,
+   "endMs": 98532
   },
   {
    "text": "knock",
-   "startMs": 99925,
-   "endMs": 100351
+   "startMs": 98532,
+   "endMs": 99019
   },
   {
    "text": "my",
-   "startMs": 100351,
-   "endMs": 100564
+   "startMs": 99019,
+   "endMs": 99263
   },
   {
    "text": "door.",
-   "startMs": 100564,
-   "endMs": 100990
+   "startMs": 99263,
+   "endMs": 99751
   },
   {
    "text": "Seven",
-   "startMs": 100990,
-   "endMs": 101416
+   "startMs": 99751,
+   "endMs": 100238
   },
   {
    "text": "o'clock,",
-   "startMs": 101416,
-   "endMs": 102055
+   "startMs": 100238,
+   "endMs": 100970
   },
   {
    "text": "nothing.",
-   "startMs": 102055,
-   "endMs": 102694
+   "startMs": 100970,
+   "endMs": 101701
   },
   {
    "text": "I",
-   "startMs": 102694,
-   "endMs": 102836
+   "startMs": 101701,
+   "endMs": 101864
   },
   {
    "text": "come",
-   "startMs": 102836,
-   "endMs": 103191
+   "startMs": 101864,
+   "endMs": 102270
   },
   {
    "text": "out",
-   "startMs": 103191,
-   "endMs": 103475
+   "startMs": 102270,
+   "endMs": 102595
   },
   {
    "text": "by",
-   "startMs": 103475,
-   "endMs": 103688
+   "startMs": 102595,
+   "endMs": 102839
   },
   {
    "text": "ten,",
-   "startMs": 103688,
-   "endMs": 104043
+   "startMs": 102839,
+   "endMs": 103246
   },
   {
    "text": "I",
-   "startMs": 104043,
-   "endMs": 104185
+   "startMs": 103246,
+   "endMs": 103408
   },
   {
    "text": "see",
-   "startMs": 104185,
-   "endMs": 104469
+   "startMs": 103408,
+   "endMs": 103733
   },
   {
    "text": "food",
-   "startMs": 104469,
-   "endMs": 104824
+   "startMs": 103733,
+   "endMs": 104140
   },
   {
    "text": "for",
-   "startMs": 104824,
-   "endMs": 105108
+   "startMs": 104140,
+   "endMs": 104465
   },
   {
    "text": "table.",
-   "startMs": 105108,
-   "endMs": 105605
+   "startMs": 104465,
+   "endMs": 105034
   },
   {
    "text": "Rice.",
-   "startMs": 105605,
-   "endMs": 106031
+   "startMs": 105034,
+   "endMs": 105521
   },
   {
    "text": "Two",
-   "startMs": 106031,
-   "endMs": 106315
+   "startMs": 105521,
+   "endMs": 105846
   },
   {
    "text": "meat.",
-   "startMs": 106315,
-   "endMs": 106741,
+   "startMs": 105846,
+   "endMs": 106334,
    "endBeat": true
   },
   {
    "text": "Mama",
-   "startMs": 106991,
-   "endMs": 107323
+   "startMs": 106584,
+   "endMs": 106847
   },
   {
    "text": "dey",
-   "startMs": 107323,
-   "endMs": 107589
+   "startMs": 106847,
+   "endMs": 107058
   },
   {
    "text": "whisper",
-   "startMs": 107589,
-   "endMs": 108120
+   "startMs": 107058,
+   "endMs": 107480
   },
   {
    "text": "for",
-   "startMs": 108120,
-   "endMs": 108386
+   "startMs": 107480,
+   "endMs": 107691
   },
   {
    "text": "phone:",
-   "startMs": 108386,
-   "endMs": 108851
+   "startMs": 107691,
+   "endMs": 108060
   },
   {
    "text": "No",
-   "startMs": 108851,
-   "endMs": 109051
+   "startMs": 108060,
+   "endMs": 108218
   },
   {
    "text": "disturb",
-   "startMs": 109051,
-   "endMs": 109582
+   "startMs": 108218,
+   "endMs": 108639
   },
   {
    "text": "am,",
-   "startMs": 109582,
-   "endMs": 109848
+   "startMs": 108639,
+   "endMs": 108850
   },
   {
    "text": "e",
-   "startMs": 109848,
-   "endMs": 109981
+   "startMs": 108850,
+   "endMs": 108956
   },
   {
    "text": "dey",
-   "startMs": 109981,
-   "endMs": 110247
+   "startMs": 108956,
+   "endMs": 109166
   },
   {
    "text": "work.",
-   "startMs": 110247,
-   "endMs": 110646
+   "startMs": 109166,
+   "endMs": 109483
   },
   {
    "text": "Compound",
-   "startMs": 110646,
-   "endMs": 111244
+   "startMs": 109483,
+   "endMs": 109957
   },
   {
    "text": "people",
-   "startMs": 111244,
-   "endMs": 111709
+   "startMs": 109957,
+   "endMs": 110326
   },
   {
    "text": "come",
-   "startMs": 111709,
-   "endMs": 112041
+   "startMs": 110326,
+   "endMs": 110589
   },
   {
    "text": "dey",
-   "startMs": 112041,
-   "endMs": 112307
+   "startMs": 110589,
+   "endMs": 110800
   },
   {
    "text": "greet",
-   "startMs": 112307,
-   "endMs": 112706
+   "startMs": 110800,
+   "endMs": 111116
   },
   {
    "text": "me,",
-   "startMs": 112706,
-   "endMs": 112972
+   "startMs": 111116,
+   "endMs": 111327
   },
   {
    "text": "Engineer!",
-   "startMs": 112972,
-   "endMs": 113636
+   "startMs": 111327,
+   "endMs": 111854
   },
   {
    "text": "Engineer!",
-   "startMs": 113636,
-   "endMs": 114301,
+   "startMs": 111854,
+   "endMs": 112381,
    "endBeat": true
   },
   {
    "text": "I",
-   "startMs": 114551,
-   "endMs": 114697
+   "startMs": 112631,
+   "endMs": 112773
   },
   {
    "text": "think",
-   "startMs": 114697,
-   "endMs": 115136
+   "startMs": 112773,
+   "endMs": 113200
   },
   {
    "text": "say",
-   "startMs": 115136,
-   "endMs": 115428
+   "startMs": 113200,
+   "endMs": 113484
   },
   {
    "text": "I",
-   "startMs": 115428,
-   "endMs": 115575
+   "startMs": 113484,
+   "endMs": 113627
   },
   {
    "text": "don",
-   "startMs": 115575,
-   "endMs": 115867
+   "startMs": 113627,
+   "endMs": 113911
   },
   {
    "text": "win.",
-   "startMs": 115867,
-   "endMs": 116233
+   "startMs": 113911,
+   "endMs": 114266
   },
   {
    "text": "Until",
-   "startMs": 116233,
-   "endMs": 116672
+   "startMs": 114266,
+   "endMs": 114693
   },
   {
    "text": "Sunday,",
-   "startMs": 116672,
-   "endMs": 117257
+   "startMs": 114693,
+   "endMs": 115262
   },
   {
    "text": "for",
-   "startMs": 117257,
-   "endMs": 117549
+   "startMs": 115262,
+   "endMs": 115546
   },
   {
    "text": "church,",
-   "startMs": 117549,
-   "endMs": 118135
+   "startMs": 115546,
+   "endMs": 116115
   },
   {
    "text": "pastor",
-   "startMs": 118135,
-   "endMs": 118647
+   "startMs": 116115,
+   "endMs": 116612
   },
   {
    "text": "say",
-   "startMs": 118647,
-   "endMs": 118939
+   "startMs": 116612,
+   "endMs": 116897
   },
   {
    "text": "make",
-   "startMs": 118939,
-   "endMs": 119305
+   "startMs": 116897,
+   "endMs": 117252
   },
   {
    "text": "anybody",
-   "startMs": 119305,
-   "endMs": 119890
+   "startMs": 117252,
+   "endMs": 117821
   },
   {
    "text": "wey",
-   "startMs": 119890,
-   "endMs": 120183
+   "startMs": 117821,
+   "endMs": 118105
   },
   {
    "text": "God",
-   "startMs": 120183,
-   "endMs": 120475
+   "startMs": 118105,
+   "endMs": 118390
   },
   {
    "text": "bless",
-   "startMs": 120475,
-   "endMs": 120914
+   "startMs": 118390,
+   "endMs": 118816
   },
   {
    "text": "that",
-   "startMs": 120914,
-   "endMs": 121280
+   "startMs": 118816,
+   "endMs": 119172
   },
   {
    "text": "week",
-   "startMs": 121280,
-   "endMs": 121645
+   "startMs": 119172,
+   "endMs": 119527
   },
   {
    "text": "come",
-   "startMs": 121645,
-   "endMs": 122011
+   "startMs": 119527,
+   "endMs": 119883
   },
   {
    "text": "out",
-   "startMs": 122011,
-   "endMs": 122304
+   "startMs": 119883,
+   "endMs": 120167
   },
   {
    "text": "for",
-   "startMs": 122304,
-   "endMs": 122596
+   "startMs": 120167,
+   "endMs": 120451
   },
   {
    "text": "testimony.",
-   "startMs": 122596,
-   "endMs": 123401,
+   "startMs": 120451,
+   "endMs": 121233,
    "endBeat": true
   },
   {
    "text": "My",
-   "startMs": 123651,
-   "endMs": 123893
+   "startMs": 121483,
+   "endMs": 121699
   },
   {
    "text": "mama",
-   "startMs": 123893,
-   "endMs": 124296
+   "startMs": 121699,
+   "endMs": 122060
   },
   {
    "text": "stand",
-   "startMs": 124296,
-   "endMs": 124780
+   "startMs": 122060,
+   "endMs": 122492
   },
   {
    "text": "up.",
-   "startMs": 124780,
-   "endMs": 125102
+   "startMs": 122492,
+   "endMs": 122780
   },
   {
    "text": "She",
-   "startMs": 125102,
-   "endMs": 125425
+   "startMs": 122780,
+   "endMs": 123068
   },
   {
    "text": "collect",
-   "startMs": 125425,
-   "endMs": 126070
+   "startMs": 123068,
+   "endMs": 123645
   },
   {
    "text": "microphone.",
-   "startMs": 126070,
-   "endMs": 127038
+   "startMs": 123645,
+   "endMs": 124509
   },
   {
    "text": "She",
-   "startMs": 127038,
-   "endMs": 127360
+   "startMs": 124509,
+   "endMs": 124797
   },
   {
    "text": "say,",
-   "startMs": 127360,
-   "endMs": 127764
+   "startMs": 124797,
+   "endMs": 125157
   },
   {
    "text": "I",
-   "startMs": 127764,
-   "endMs": 127925
+   "startMs": 125157,
+   "endMs": 125301
   },
   {
    "text": "thank",
-   "startMs": 127925,
-   "endMs": 128409
+   "startMs": 125301,
+   "endMs": 125734
   },
   {
    "text": "God",
-   "startMs": 128409,
-   "endMs": 128731
+   "startMs": 125734,
+   "endMs": 126022
   },
   {
    "text": "for",
-   "startMs": 128731,
-   "endMs": 129054
+   "startMs": 126022,
+   "endMs": 126310
   },
   {
    "text": "my",
-   "startMs": 129054,
-   "endMs": 129296
+   "startMs": 126310,
+   "endMs": 126526
   },
   {
    "text": "son.",
-   "startMs": 129296,
-   "endMs": 129699
+   "startMs": 126526,
+   "endMs": 126886
   },
   {
    "text": "E",
-   "startMs": 129699,
-   "endMs": 129860
+   "startMs": 126886,
+   "endMs": 127030
   },
   {
    "text": "still",
-   "startMs": 129860,
-   "endMs": 130344
+   "startMs": 127030,
+   "endMs": 127463
   },
   {
    "text": "no",
-   "startMs": 130344,
-   "endMs": 130586
+   "startMs": 127463,
+   "endMs": 127679
   },
   {
    "text": "get",
-   "startMs": 130586,
-   "endMs": 130909
+   "startMs": 127679,
+   "endMs": 127967
   },
   {
    "text": "work.",
-   "startMs": 130909,
-   "endMs": 131393
+   "startMs": 127967,
+   "endMs": 128399
   },
   {
    "text": "But",
-   "startMs": 131393,
-   "endMs": 131715
+   "startMs": 128399,
+   "endMs": 128687
   },
   {
    "text": "the",
-   "startMs": 131715,
-   "endMs": 132038
+   "startMs": 128687,
+   "endMs": 128976
   },
   {
    "text": "laptop",
-   "startMs": 132038,
-   "endMs": 132602
+   "startMs": 128976,
+   "endMs": 129480
   },
   {
    "text": "don",
-   "startMs": 132602,
-   "endMs": 132925
+   "startMs": 129480,
+   "endMs": 129768
   },
   {
    "text": "dey",
-   "startMs": 132925,
-   "endMs": 133247
+   "startMs": 129768,
+   "endMs": 130056
   },
   {
    "text": "pay.",
-   "startMs": 133247,
-   "endMs": 133651,
+   "startMs": 130056,
+   "endMs": 130416,
    "endBeat": true
   }
  ]
